@@ -608,6 +608,10 @@ MonoBehaviour:
   - {fileID: 1873689406}
   BeforeQuiz: {fileID: 643586997}
   AfterQuiz: {fileID: 303698307}
+  factLength: 2
+  nextFact: 0
+  showFacts: 0
+  currTimer: 0
 --- !u!114 &461151744
 MonoBehaviour:
   m_ObjectHideFlags: 0
