@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WebForm : MonoBehaviour {
-
+public class WebForm : MonoBehaviour
+{
     WWWForm webForm;
     Dictionary<string, string> formFields = new Dictionary<string, string>();
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         webForm = new WWWForm();
         SendTestData();
     }
