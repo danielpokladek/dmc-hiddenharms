@@ -7,11 +7,20 @@ public class WebForm : MonoBehaviour
     WWWForm webForm;
     Dictionary<string, string> formFields = new Dictionary<string, string>();
 
+    public static WebForm WebManager = null;
+
+    private void Awake()
+    {
+        if (WebManager == null)
+            WebManager = this;
+        else if (WebManager != this)
+            Destroy(WebManager);
+    }
+
     // Use this for initialization
     void Start()
     {
         webForm = new WWWForm();
-        SendTestData();
     }
 
     /// <summary>
@@ -19,7 +28,7 @@ public class WebForm : MonoBehaviour
     /// </summary>
     /// <param name="fieldName">Field name, as seen on the web form. (Different for each field, check docs).</param>
     /// <param name="value">Value of the field, given as a string.</param>
-    void AddField(string fieldName, string value)
+    public void AddField(string fieldName, string value)
     {
         formFields.Add(fieldName, value);
     }
@@ -27,7 +36,7 @@ public class WebForm : MonoBehaviour
     /// <summary>
     /// Remove all fields from the form.
     /// </summary>
-    void ClearForm()
+    public void ClearForm()
     {
         formFields.Clear();
     }
@@ -36,7 +45,7 @@ public class WebForm : MonoBehaviour
     /// Send form to the server. Returns a boolean.
     /// </summary>
     /// <param name="wwwAddress">WWW address for the form.</param>
-    bool SendForm(string wwwAddress)
+    public bool SendForm(string wwwAddress)
     {
         if (formFields.Count == 0)
         {
@@ -70,25 +79,11 @@ public class WebForm : MonoBehaviour
     /// <summary>
     /// Display form fields in console.
     /// </summary>
-    void DisplayFormFields()
+    public void DisplayFormFields()
     {
         foreach (KeyValuePair<string, string> entry in formFields)
         {
             Debug.Log(entry.Key + " : " + entry.Value);
         }
-    }
-
-    void SendTestData()
-    {
-        AddField("entry.416226614", "0");
-        AddField("entry.200936802", "Rather Not Say");
-        AddField("entry.679332033", "English");
-        AddField("entry.199891947", "English");
-        AddField("entry.738434021", "Nothing");
-        AddField("entry.711406450", "Nothing");
-
-        DisplayFormFields();
-
-        SendForm("https://docs.google.com/forms/d/e/1FAIpQLSeldUHslfO4JDGkjwX0Pjzwqu9Va5unoqYF0BTfSVnZwBRTzw/formResponse");
     }
 }
