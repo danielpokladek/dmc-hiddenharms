@@ -16,8 +16,10 @@ public class Bathroom : MonoBehaviour
     public bool nextFact;
     public bool showFacts;
 
-    float timer;
-    public float currTimer;
+    private GameObject currentFact;
+    [SerializeField] private int factNo = 0;
+    private float timer;
+    private float currTimer;
 
     private void Start()
     {
@@ -41,23 +43,24 @@ public class Bathroom : MonoBehaviour
             else if (currTimer <= 0)
             {
                 currTimer = factLength;
-                nextFact = true;
+                NextFact();
             }
+        }
+    }
 
-            foreach (TMPro.TMP_Text txt in facts)
-            {
-                txt.enabled = true;
+    private void NextFact()
+    {   
+        facts[factNo].enabled = false;
+        factNo++;
 
-                if (nextFact)
-                {
-                    txt.enabled = false;
-                    nextFact = false;
-                }
-                else
-                {
-                    return;
-                }
-            }
+        if (factNo > facts.Length - 1)
+        {
+            _ShowQuizAft();
+            showFacts = false;
+        }
+        else
+        {
+            facts[factNo].enabled = true;
         }
     }
 
@@ -69,13 +72,15 @@ public class Bathroom : MonoBehaviour
 
     public void _ShowFacts()
     {
-        BeforeQuiz.SetActive(false);
+        facts[factNo].enabled = true;
+        
         showFacts = true;
+        BeforeQuiz.SetActive(false);
     }
 
     public void _ShowQuizAft()
     {
-
+        AfterQuiz.SetActive(true);
     }
 
     IEnumerator Facts()
