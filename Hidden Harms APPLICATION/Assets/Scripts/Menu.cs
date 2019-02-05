@@ -79,10 +79,14 @@ public class Menu : MonoBehaviour
         ShowHouse();
     }
 
-    [System.Obsolete("Use _SelectLanguage instead.")]
-    public void _SelectEnglish()
+    public void _BathKnowledgeBef(string value)
     {
-        PlayerPrefs.SetString("Language", "English");
+        formManager.AddField("entry.738434021", value);
+    }
+
+    public void _BathKnowledgAft(string value)
+    {
+        formManager.AddField("entry.711406450", value);
     }
     #endregion
 

@@ -15,12 +15,15 @@ public class WebForm : MonoBehaviour
             WebManager = this;
         else if (WebManager != this)
             Destroy(WebManager);
+
+        DontDestroyOnLoad(this);
     }
 
     // Use this for initialization
     void Start()
     {
         webForm = new WWWForm();
+        //SendTestData();
     }
 
     /// <summary>
@@ -85,5 +88,19 @@ public class WebForm : MonoBehaviour
         {
             Debug.Log(entry.Key + " : " + entry.Value);
         }
+    }
+
+    void SendTestData()
+    {
+        AddField("entry.416226614", "0");
+        AddField("entry.200936802", "Rather Not Say");
+        AddField("entry.679332033", "English");
+        AddField("entry.199891947", "English");
+        AddField("entry.738434021", "Nothing");
+        AddField("entry.711406450", "Nothing");
+
+        DisplayFormFields();
+
+        SendForm("https://docs.google.com/forms/d/e/1FAIpQLSeldUHslfO4JDGkjwX0Pjzwqu9Va5unoqYF0BTfSVnZwBRTzw/formResponse");
     }
 }
