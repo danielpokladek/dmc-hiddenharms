@@ -936,7 +936,7 @@ MonoBehaviour:
   - {fileID: 219691287}
   - {fileID: 1873689406}
   BeforeQuiz: {fileID: 643586997}
-  AfterQuiz: {fileID: 0}
+  AfterQuiz: {fileID: 1205541374}
   factLength: 2
   nextFact: 0
   showFacts: 0

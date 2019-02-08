@@ -26,6 +26,8 @@ public class Bathroom : MonoBehaviour
         currTimer = factLength;
         nextFact = false;
 
+        AfterQuiz.SetActive(false);
+
         foreach (TMPro.TMP_Text txt in facts)
             txt.enabled = false;
 
