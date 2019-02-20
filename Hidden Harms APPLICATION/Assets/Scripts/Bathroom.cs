@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Bathroom : MonoBehaviour
+using Rooms;
+
+public class Bathroom : BaseRoom
 {
     WebForm formManager;
 
@@ -83,6 +85,12 @@ public class Bathroom : MonoBehaviour
     public void _ShowQuizAft()
     {
         AfterQuiz.SetActive(true);
+    }
+
+    public void _SendQuizAft(string value)
+    {
+        formManager.AddField("test2", value);
+        formManager._SendForm();
     }
 
     IEnumerator Facts()

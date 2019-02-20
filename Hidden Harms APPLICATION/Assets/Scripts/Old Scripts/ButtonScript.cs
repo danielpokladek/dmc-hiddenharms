@@ -17,18 +17,18 @@ public class ButtonScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (DataManager.gameObject.GetComponent<SendData>().AgeQs == true)
-        {
-            if (button.CompareTag("AGE"))
-            {
-                button.gameObject.SetActive(true);
+        //if (DataManager.gameObject.GetComponent<SendData>().AgeQs == true)
+        //{
+        //    if (button.CompareTag("AGE"))
+        //    {
+        //        button.gameObject.SetActive(true);
                 
 
-            } else {
-                button.gameObject.SetActive(false);
+        //    } else {
+        //        button.gameObject.SetActive(false);
                 
-            }
-        }
+        //    }
+        //}
 
 	}
 }

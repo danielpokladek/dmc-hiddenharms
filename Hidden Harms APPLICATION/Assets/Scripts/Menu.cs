@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Menu : MonoBehaviour
+using Rooms;
+
+public class Menu : BaseRoom
 {
     WebForm formManager;
 
@@ -63,7 +65,7 @@ public class Menu : MonoBehaviour
 
     public void _SetNationality(string value)
     {
-        formManager.AddField("entry.679332033", value);
+        AddToForm(value);
         ShowGenderScreen();
     }
 

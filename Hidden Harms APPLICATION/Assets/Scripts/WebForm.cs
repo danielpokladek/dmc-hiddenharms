@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class WebForm : MonoBehaviour
 {
@@ -44,16 +45,21 @@ public class WebForm : MonoBehaviour
         formFields.Clear();
     }
 
+    public void _SendForm()
+    {
+        StartCoroutine(SendForm("https://docs.google.com/forms/d/e/1FAIpQLSeldUHslfO4JDGkjwX0Pjzwqu9Va5unoqYF0BTfSVnZwBRTzw/formResponse"));
+    }
+
     /// <summary>
     /// Send form to the server. Returns a boolean.
     /// </summary>
     /// <param name="wwwAddress">WWW address for the form.</param>
-    public bool SendForm(string wwwAddress)
+    IEnumerator SendForm(string wwwAddress)
     {
         if (formFields.Count == 0)
         {
             Debug.LogError("SEND ERR: No fields in the form.");
-            return false;
+            yield break;
         }
 
         foreach (KeyValuePair<string, string> entry in formFields)
@@ -61,22 +67,20 @@ public class WebForm : MonoBehaviour
             if (entry.Key == "" || entry.Value == "")
             {
                 Debug.LogError("SEND ERR: Empty key/value in form at: " + entry.Key.ToString());
-                return false;
+                yield break;
             }
             webForm.AddField(entry.Key, entry.Value);
         }
 
-        byte[] rawData = webForm.data;
-        WWW formAddress = new WWW(wwwAddress, rawData);
-
-        if (formAddress == null)
+        using (UnityWebRequest www = UnityWebRequest.Post(wwwAddress, webForm))
         {
-            Debug.LogError("SEND ERR: Could not access specified form page. Check the WWW address.");
-            return false;
-        }
+            yield return www.SendWebRequest();
 
-        Debug.Log("Form Sent. WWW Address: " + wwwAddress);
-        return true;
+            if (www.isNetworkError || www.isHttpError)
+                Debug.Log(www.error);
+            else
+                Debug.Log("Form uploaded complete!");
+        }
     }
 
     /// <summary>
