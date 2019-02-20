@@ -7,8 +7,6 @@ using Rooms;
 
 public class Bathroom : BaseRoom
 {
-    WebForm formManager;
-
     public TMPro.TMP_Text[] facts;
 
     public GameObject BeforeQuiz;
@@ -23,8 +21,11 @@ public class Bathroom : BaseRoom
     private float timer;
     private float currTimer;
 
-    private void Start()
+    [HideInInspector]
+    public override void Start()
     {
+        base.Start();
+
         currTimer = factLength;
         nextFact = false;
 
@@ -32,8 +33,6 @@ public class Bathroom : BaseRoom
 
         foreach (TMPro.TMP_Text txt in facts)
             txt.enabled = false;
-
-        formManager = WebForm.WebManager;
     }
 
     private void Update()
@@ -59,7 +58,7 @@ public class Bathroom : BaseRoom
 
         if (factNo > facts.Length - 1)
         {
-            _ShowQuizAft();
+            AfterQuiz.SetActive(true);
             showFacts = false;
         }
         else
@@ -68,35 +67,25 @@ public class Bathroom : BaseRoom
         }
     }
 
-    public void _SetQuizBef(string value)
+    #region Quiz Buttons
+    public void BTN_KnowledgeBefore(string value)
     {
-        formManager.AddField("test", value);
-        _ShowFacts();
+        AddToForm(value);
+        ShowFacts();
     }
 
-    public void _ShowFacts()
+    public void BTN_KnowledgeAfter(string value)
+    {
+        AddToForm(value);
+        AfterQuiz.SetActive(false);
+    }
+    #endregion
+
+    public void ShowFacts()
     {
         facts[factNo].enabled = true;
         
         showFacts = true;
         BeforeQuiz.SetActive(false);
-    }
-
-    public void _ShowQuizAft()
-    {
-        AfterQuiz.SetActive(true);
-    }
-
-    public void _SendQuizAft(string value)
-    {
-        formManager.AddField("test2", value);
-        formManager._SendForm();
-    }
-
-    IEnumerator Facts()
-    {
-
-
-        yield break;
     }
 }

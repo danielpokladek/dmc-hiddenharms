@@ -8,7 +8,7 @@ namespace Rooms
     {
         public WebForm webManager;
 
-        private void Start()
+        public virtual void Start()
         {
             webManager = WebForm.WebManager;
         }

@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &10506370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetGender
         m_Mode: 5
         m_Arguments:
@@ -252,8 +252,6 @@ GameObject:
   - component: {fileID: 14387106}
   - component: {fileID: 14387105}
   - component: {fileID: 14387104}
-  - component: {fileID: 14387107}
-  - component: {fileID: 14387108}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -323,39 +321,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14387107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14387103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54cc4de70bfd2fa4b82eb4b7b2b4cad5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  webManager: {fileID: 0}
-  SelectLangScreen: {fileID: 199515739}
-  NationalityScreen: {fileID: 734146193}
-  GenderScreen: {fileID: 1907421291}
-  AgeScreen: {fileID: 522679371}
-  dollHouse: {fileID: 53570949}
-  UI: {fileID: 338757811}
---- !u!114 &14387108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14387103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f27fcc9d1be031249b961143b9b66c99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &20146344
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +436,7 @@ Transform:
   - {fileID: 365845245}
   - {fileID: 350054746}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58122713
 GameObject:
@@ -550,8 +517,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1006,7 +973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &199515740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1014,13 +981,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199515739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1437248784}
   - {fileID: 1466486906}
-  m_Father: {fileID: 338757815}
+  m_Father: {fileID: 1176614141}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1596,11 +1563,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 777739714}
-  - {fileID: 199515740}
   - {fileID: 1176614141}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1909,6 +1874,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomScene: 3
+--- !u!1 &369815748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369815751}
+  - component: {fileID: 369815750}
+  - component: {fileID: 369815749}
+  m_Layer: 0
+  m_Name: _SCRIPTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &369815749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369815748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27fcc9d1be031249b961143b9b66c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &369815750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369815748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cc4de70bfd2fa4b82eb4b7b2b4cad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  webManager: {fileID: 0}
+  SelectLangScreen: {fileID: 199515739}
+  NationalityScreen: {fileID: 734146193}
+  GenderScreen: {fileID: 1907421291}
+  AgeScreen: {fileID: 522679371}
+  DemographicsUI: {fileID: 1176614140}
+  dollHouse: {fileID: 53570949}
+  UI: {fileID: 338757811}
+--- !u!4 &369815751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369815748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432978613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,15 +2177,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 12-17
+          m_StringArgument: Age,12-17
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2288,7 +2317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &522679372
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2308,7 +2337,7 @@ RectTransform:
   - {fileID: 974134320}
   - {fileID: 1486444021}
   m_Father: {fileID: 1176614141}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2333,7 +2362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &536507151
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2394,7 +2423,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetGender
         m_Mode: 5
         m_Arguments:
@@ -2508,7 +2537,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &565769157
 GameObject:
@@ -2607,7 +2636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &609646521
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2668,7 +2697,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetGender
         m_Mode: 5
         m_Arguments:
@@ -2988,7 +3017,7 @@ RectTransform:
   - {fileID: 1594448904}
   - {fileID: 1602374541}
   m_Father: {fileID: 1176614141}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3020,11 +3049,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777739713}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 338757815}
+  m_Father: {fileID: 1176614141}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3227,8 +3256,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3383,11 +3412,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1907421292}
+  - {fileID: 777739714}
+  - {fileID: 199515740}
   - {fileID: 734146194}
+  - {fileID: 1907421292}
   - {fileID: 522679372}
   m_Father: {fileID: 338757815}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3702,8 +3733,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3831,8 +3862,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3960,15 +3991,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SelectLanguage
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SelectLanguage
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: English
+          m_StringArgument: Lang,English
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -4089,8 +4120,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetAge
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetAge
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4218,8 +4249,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetNationality
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetNationality
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4424,7 +4455,7 @@ Transform:
   m_LocalScale: {x: 1.1397088, y: 1.0912501, z: 0.931896}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582352643
 GameObject:
@@ -4516,7 +4547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1594448904
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4577,7 +4608,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetNationality
         m_Mode: 5
         m_Arguments:
@@ -4645,7 +4676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1602374541
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4706,7 +4737,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetNationality
         m_Mode: 5
         m_Arguments:
@@ -4995,15 +5026,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
-        m_MethodName: _SetGender
+      - m_Target: {fileID: 369815750}
+        m_MethodName: BTN_SetGender
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Male
+          m_StringArgument: Gender,Male
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -5292,7 +5323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1907421292
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5310,7 +5341,7 @@ RectTransform:
   - {fileID: 536507151}
   - {fileID: 10506370}
   m_Father: {fileID: 1176614141}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5414,7 +5445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2037256635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5475,7 +5506,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 14387107}
+      - m_Target: {fileID: 0}
         m_MethodName: _SetNationality
         m_Mode: 5
         m_Arguments:
