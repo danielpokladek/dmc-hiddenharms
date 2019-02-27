@@ -1,21 +1,69 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 namespace Rooms
 {
     public class BaseRoom : MonoBehaviour
     {
-        public WebForm webManager;
+        [Header("Room Settings")]
+        public bool hasFacts = false;
+        public TMP_Text factsUI;
+        public string[] roomFacts;
+        public float factDelay = .5f;
+        public float factLength = 3f;
+        public GameObject beforeFactsQuiz;
+        public GameObject afterFactsQuiz;
 
-        public virtual void Start()
-        {
+        [HideInInspector] public bool showFacts  = false;
+        private int factNo      = 0;
+        private float timer     = 0;
+        private WebForm webManager;
+
+        public virtual void Start() {
             webManager = WebForm.WebManager;
+            beforeFactsQuiz.SetActive(true);
+            afterFactsQuiz.SetActive(false);
+            factsUI.text = roomFacts[factNo];
+            factsUI.enabled = false;
         }
 
-        public void SendFormData(string formAddress)
-        {
+        public void SendFormData(string formAddress) {
 
+        }
+
+        private void Update()
+        {
+            if (hasFacts) {
+                if (showFacts) {
+                    timer += Time.deltaTime;
+
+                    if ((timer > factDelay && Input.GetMouseButtonDown(0)) ||
+                        (timer > factLength))
+                        NextFact();
+                }
+            }
+        }
+
+        private void NextFact() {
+            timer = 0;
+            factsUI.text = "";
+            factNo++;
+
+            if (factNo > roomFacts.Length - 1) {
+                AftQuiz();
+            }
+            else {
+                factsUI.text = roomFacts[factNo];
+            }
+        }
+
+        private void AftQuiz()
+        {
+            factsUI.enabled = false;
+            showFacts       = false;
+            afterFactsQuiz.SetActive(false);
         }
 
         #region Button Functions
@@ -28,7 +76,8 @@ namespace Rooms
         {
             string[] splitParams = field.Split(',');
 
-            webManager.AddField(splitParams[0], splitParams[1]);
+            // Disabled when testing the rooms. ENABLE AFTER DONE TESTING.
+            //webManager.AddField(splitParams[0], splitParams[1]);
         }
         #endregion 
     }
