@@ -1,29 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
 using Rooms;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Bathroom : BaseRoom
-{    
-    public override void Start()
-    {
-        base.Start();
-    }
-
-    #region Quiz Buttons
+public class Kitchen : BaseRoom
+{
     public void BTN_KnowledgeBefore(string value)
     {
         AddToForm(value);
-        showFacts = true;
         beforeFactsQuiz.SetActive(false);
+        
+        showFacts = true;
         factsUI.enabled = true;
     }
 
     public void BTN_KnowledgeAfter(string value)
     {
         AddToForm(value);
+        afterFactsQuiz.SetActive(false);
+        SceneManager.LoadScene(0);
     }
-    #endregion
 }

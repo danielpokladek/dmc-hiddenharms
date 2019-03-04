@@ -7,13 +7,18 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="Bathroom.cs" t="Include" />
-          <e p="Menu.cs" t="Include" />
           <e p="Old Scripts" t="Include">
             <e p="ButtonScript.cs" t="Include" />
+            <e p="MenuRoom.cs" t="Include" />
+            <e p="Room.cs" t="Include" />
             <e p="SendData.cs" t="Include" />
           </e>
-          <e p="Room.cs" t="Include" />
+          <e p="Rooms" t="Include">
+            <e p="BaseRoom.cs" t="Include" />
+            <e p="Bathroom.cs" t="Include" />
+            <e p="Bedroom.cs" t="Include" />
+            <e p="Kitchen.cs" t="Include" />
+          </e>
           <e p="TitleAnim.cs" t="Include" />
           <e p="WebForm.cs" t="Include" />
         </e>

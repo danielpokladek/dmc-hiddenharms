@@ -20,7 +20,7 @@ namespace Rooms
         [HideInInspector]
         public override void Start()
         {
-            base.Start();
+            //base.Start();
 
             NationalityScreen.SetActive(false);
             GenderScreen.SetActive(false);

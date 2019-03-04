@@ -1491,7 +1491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &338757812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1916,7 +1916,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54cc4de70bfd2fa4b82eb4b7b2b4cad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  webManager: {fileID: 0}
+  sendData: 0
+  hasFacts: 0
+  factsUI: {fileID: 0}
+  roomFacts: []
+  factDelay: 0.5
+  factLength: 3
+  beforeFactsQuiz: {fileID: 0}
+  afterFactsQuiz: {fileID: 0}
+  showFacts: 0
   SelectLangScreen: {fileID: 199515739}
   NationalityScreen: {fileID: 734146193}
   GenderScreen: {fileID: 1907421291}

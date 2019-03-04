@@ -8,42 +8,167 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/WebForm.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-483">
+                    <folding>
+                      <marker date="1551656417699" expanded="false" signature="6:108" ph="..." />
+                      <marker date="1551656417699" expanded="true" signature="146:3141" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="319:498" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="551:622" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="628:928" ph="/// Add a field to the web form. All fields are stored in a dictionary. ... " />
+                      <marker date="1551656417699" expanded="true" signature="985:1039" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1045:1118" ph="/// Remove all fields from the form. ... " />
+                      <marker date="1551656417699" expanded="true" signature="1146:1186" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1215:1368" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1374:1525" ph="/// Send form to the server. Returns a boolean. ... " />
+                      <marker date="1551656417699" expanded="true" signature="1569:2388" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1610:1719" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1787:2069" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="1851:2005" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="2150:2382" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="2394:2466" ph="/// Display form fields in console. ... " />
+                      <marker date="1551656417699" expanded="true" signature="2502:2657" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="2575:2651" ph="{...}" />
+                      <marker date="1551656417699" expanded="true" signature="2682:3139" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bathroom.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-              <folding>
-                <marker date="1549409841931" expanded="false" signature="6:100" ph="..." />
-                <marker date="1549409841931" expanded="true" signature="139:1741" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="519:712" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="739:1031" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="768:1025" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="809:882" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="919:1015" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1060:1326" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1166:1245" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1258:1320" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1369:1448" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1478:1600" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1632:1679" ph="{...}" />
-                <marker date="1549409841931" expanded="true" signature="1704:1739" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/BaseRoom.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-207">
+                  <caret column="6" selection-start-column="6" selection-end-column="6" />
+                  <folding>
+                    <marker date="1551741369820" expanded="false" signature="6:126" ph="..." />
+                    <marker date="1551741369820" expanded="true" signature="143:2588" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="187:2586" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="739:968" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1023:1035" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1066:1385" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1103:1375" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1136:1361" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1419:1680" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1545:1587" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1587:1670" ph="{...}" />
+                    <marker date="1551741369820" expanded="true" signature="1712:1850" ph="{...}" />
+                    <marker date="1551741369820" expanded="false" signature="1860:2579" ph="Button Functions" />
+                    <marker date="1551741369820" expanded="true" signature="1893:2228" ph="/// Add a field to the current form. ... " />
+                    <marker date="1551741369820" expanded="true" signature="2275:2560" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bathroom.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+                  <folding>
+                    <marker date="1551741408275" expanded="false" signature="6:149" ph="..." />
+                    <marker date="1551741408275" expanded="true" signature="183:620" ph="{...}" />
+                    <marker date="1551741408275" expanded="true" signature="222:256" ph="{...}" />
+                    <marker date="1551741408275" expanded="true" signature="307:454" ph="{...}" />
+                    <marker date="1551741408275" expanded="true" signature="504:618" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bedroom.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                  <folding>
+                    <marker date="1551741452202" expanded="false" signature="6:126" ph="..." />
+                    <marker date="1551741452202" expanded="true" signature="159:524" ph="{...}" />
+                    <marker date="1551741452202" expanded="true" signature="211:358" ph="{...}" />
+                    <marker date="1551741452202" expanded="true" signature="408:522" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Kitchen.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+                  <folding>
+                    <marker date="1551741440090" expanded="false" signature="6:126" ph="..." />
+                    <marker date="1551741440090" expanded="true" signature="159:524" ph="{...}" />
+                    <marker date="1551741440090" expanded="true" signature="211:358" ph="{...}" />
+                    <marker date="1551741440090" expanded="true" signature="408:522" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Old Scripts/MenuRoom.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+                  <folding>
+                    <marker date="1551741675352" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1551741675352" expanded="true" signature="95:1587" ph="{...}" />
+                    <marker date="1551741675352" expanded="true" signature="134:1585" ph="{...}" />
+                    <marker date="1551741675352" expanded="true" signature="517:770" ph="{...}" />
+                    <marker date="1551741675352" expanded="false" signature="780:1579" ph="Button Functions" />
+                    <marker date="1551741675352" expanded="true" signature="857:1002" ph="{...}" />
+                    <marker date="1551741675352" expanded="true" signature="1056:1197" ph="{...}" />
+                    <marker date="1551741675352" expanded="true" signature="1246:1379" ph="{...}" />
+                    <marker date="1551741675352" expanded="true" signature="1425:1560" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bathroom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Kitchen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WebForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bedroom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Old Scripts/MenuRoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bathroom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/BaseRoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bathroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms/BaseRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms/Bathroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms/Bedroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rooms/Kitchen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Old Scripts/MenuRoom.cs" />
       </list>
     </option>
   </component>
@@ -53,9 +178,9 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2119" />
-    <option name="y" value="-23" />
-    <option name="width" value="1920" />
+    <option name="x" value="2068" />
+    <option name="y" value="-19" />
+    <option name="width" value="1932" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
@@ -64,13 +189,13 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,20 +242,12 @@
     <frame x="2552" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Captures" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33528784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Captures" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -138,12 +255,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Logcat" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -159,25 +284,125 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BaseRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bathroom.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WebForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
           <folding>
-            <marker date="1549409841931" expanded="false" signature="6:100" ph="..." />
-            <marker date="1549409841931" expanded="true" signature="139:1741" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="519:712" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="739:1031" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="768:1025" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="809:882" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="919:1015" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1060:1326" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1166:1245" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1258:1320" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1369:1448" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1478:1600" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1632:1679" ph="{...}" />
-            <marker date="1549409841931" expanded="true" signature="1704:1739" ph="{...}" />
+            <marker date="1551656417699" expanded="false" signature="6:108" ph="..." />
+            <marker date="1551656417699" expanded="true" signature="146:3141" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="319:498" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="551:622" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="628:928" ph="/// Add a field to the web form. All fields are stored in a dictionary. ... " />
+            <marker date="1551656417699" expanded="true" signature="985:1039" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1045:1118" ph="/// Remove all fields from the form. ... " />
+            <marker date="1551656417699" expanded="true" signature="1146:1186" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1215:1368" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1374:1525" ph="/// Send form to the server. Returns a boolean. ... " />
+            <marker date="1551656417699" expanded="true" signature="1569:2388" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1610:1719" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1787:2069" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="1851:2005" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="2150:2382" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="2394:2466" ph="/// Display form fields in console. ... " />
+            <marker date="1551656417699" expanded="true" signature="2502:2657" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="2575:2651" ph="{...}" />
+            <marker date="1551656417699" expanded="true" signature="2682:3139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bathroom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <marker date="1551741408275" expanded="false" signature="6:149" ph="..." />
+            <marker date="1551741408275" expanded="true" signature="183:620" ph="{...}" />
+            <marker date="1551741408275" expanded="true" signature="222:256" ph="{...}" />
+            <marker date="1551741408275" expanded="true" signature="307:454" ph="{...}" />
+            <marker date="1551741408275" expanded="true" signature="504:618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Bedroom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1551741452202" expanded="false" signature="6:126" ph="..." />
+            <marker date="1551741452202" expanded="true" signature="159:524" ph="{...}" />
+            <marker date="1551741452202" expanded="true" signature="211:358" ph="{...}" />
+            <marker date="1551741452202" expanded="true" signature="408:522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/Kitchen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1551741440090" expanded="false" signature="6:126" ph="..." />
+            <marker date="1551741440090" expanded="true" signature="159:524" ph="{...}" />
+            <marker date="1551741440090" expanded="true" signature="211:358" ph="{...}" />
+            <marker date="1551741440090" expanded="true" signature="408:522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rooms/BaseRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1551741369820" expanded="false" signature="6:126" ph="..." />
+            <marker date="1551741369820" expanded="true" signature="143:2588" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="187:2586" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="739:968" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1023:1035" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1066:1385" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1103:1375" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1136:1361" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1419:1680" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1545:1587" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1587:1670" ph="{...}" />
+            <marker date="1551741369820" expanded="true" signature="1712:1850" ph="{...}" />
+            <marker date="1551741369820" expanded="false" signature="1860:2579" ph="Button Functions" />
+            <marker date="1551741369820" expanded="true" signature="1893:2228" ph="/// Add a field to the current form. ... " />
+            <marker date="1551741369820" expanded="true" signature="2275:2560" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Old Scripts/MenuRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <marker date="1551741675352" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551741675352" expanded="true" signature="95:1587" ph="{...}" />
+            <marker date="1551741675352" expanded="true" signature="134:1585" ph="{...}" />
+            <marker date="1551741675352" expanded="true" signature="517:770" ph="{...}" />
+            <marker date="1551741675352" expanded="false" signature="780:1579" ph="Button Functions" />
+            <marker date="1551741675352" expanded="true" signature="857:1002" ph="{...}" />
+            <marker date="1551741675352" expanded="true" signature="1056:1197" ph="{...}" />
+            <marker date="1551741675352" expanded="true" signature="1246:1379" ph="{...}" />
+            <marker date="1551741675352" expanded="true" signature="1425:1560" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 namespace Rooms
@@ -8,6 +9,7 @@ namespace Rooms
     public class BaseRoom : MonoBehaviour
     {
         [Header("Room Settings")]
+        public bool sendData = false;
         public bool hasFacts = false;
         public TMP_Text factsUI;
         public string[] roomFacts;
@@ -63,7 +65,7 @@ namespace Rooms
         {
             factsUI.enabled = false;
             showFacts       = false;
-            afterFactsQuiz.SetActive(false);
+            afterFactsQuiz.SetActive(true);
         }
 
         #region Button Functions
@@ -72,12 +74,15 @@ namespace Rooms
         /// </summary>
         /// <param name="field">Name of the field, and the value. (use comma ',' to split the field name and the value).
         ///                         The field name should always come first, and value after; for example "entry.000,value".</param>
-        public void AddToForm(string field)
+        protected void AddToForm(string field)
         {
             string[] splitParams = field.Split(',');
 
             // Disabled when testing the rooms. ENABLE AFTER DONE TESTING.
-            //webManager.AddField(splitParams[0], splitParams[1]);
+            if (sendData)
+                webManager.AddField(splitParams[0], splitParams[1]);
+            else
+                return;
         }
         #endregion 
     }
