@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Room : MonoBehaviour {
-
+public class Room : MonoBehaviour
+{
+    [SerializeField] private Canvas textCanvas;
+    
+    
     [SerializeField]
     private int roomScene;
 

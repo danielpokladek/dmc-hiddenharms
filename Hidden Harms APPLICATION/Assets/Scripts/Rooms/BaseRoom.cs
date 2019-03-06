@@ -25,6 +25,7 @@ namespace Rooms
 
         public virtual void Start() {
             webManager = WebForm.WebManager;
+            
             beforeFactsQuiz.SetActive(true);
             afterFactsQuiz.SetActive(false);
             factsUI.text = roomFacts[factNo];

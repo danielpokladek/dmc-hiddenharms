@@ -17,17 +17,28 @@ namespace Rooms
         public GameObject dollHouse;
         public GameObject UI;
 
+        private GameManager _gameManager;
+        
         [HideInInspector]
         public override void Start()
         {
-            //base.Start();
-
+            _gameManager = GameManager.manager;
+            
             NationalityScreen.SetActive(false);
             GenderScreen.SetActive(false);
             AgeScreen.SetActive(false);
 
-            dollHouse.SetActive(false);
-            UI.SetActive(true);
+            if (_gameManager.DemographicsSet == false)
+            {
+                dollHouse.SetActive(false);
+                UI.SetActive(true);
+            }
+            else
+            {
+                dollHouse.SetActive(true);
+                UI.SetActive(false);
+                
+            }
         }
 
         #region Button Functions
@@ -59,6 +70,7 @@ namespace Rooms
         {
             AddToForm(value);
 
+            _gameManager.DemographicsSet = true;
             DemographicsUI.SetActive(false);
             dollHouse.SetActive(true);
         }
