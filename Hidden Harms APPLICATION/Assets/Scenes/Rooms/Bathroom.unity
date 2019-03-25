@@ -459,10 +459,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuizCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521660225407668, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 1293521659688152687, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293521660754069759, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293521660225407668, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}

@@ -26,10 +26,11 @@ namespace Rooms
         public virtual void Start() {
             webManager = WebForm.WebManager;
             
-            beforeFactsQuiz.SetActive(true);
-            afterFactsQuiz.SetActive(false);
+            //beforeFactsQuiz.SetActive(true);
+            //afterFactsQuiz.SetActive(false);
             factsUI.text = roomFacts[factNo];
-            factsUI.enabled = false;
+            factsUI.enabled = true;
+            showFacts = true;
         }
 
         public void SendFormData(string formAddress) {
@@ -64,9 +65,10 @@ namespace Rooms
 
         private void AftQuiz()
         {
-            factsUI.enabled = false;
-            showFacts       = false;
-            afterFactsQuiz.SetActive(true);
+            //factsUI.enabled = false;
+            //showFacts       = false;
+            //afterFactsQuiz.SetActive(true);
+            SceneManager.LoadScene(0);
         }
 
         #region Button Functions
