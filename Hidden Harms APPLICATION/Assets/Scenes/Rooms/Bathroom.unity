@@ -346,26 +346,38 @@ MonoBehaviour:
   hasFacts: 1
   factsUI: {fileID: 2077237641}
   roomFacts:
-  - Test Fact 1
-  - Test Fact 2
-  - Test Fact 3
+  - Female Genital Mutilation (FGM) is the procedure of female genital organs being
+    deliberately cut or injured, although there is no medical reason for this to be
+    done.
+  - "FGM is very painful and seriously harmful to the female\u2019s both short- and
+    long-term health. Some girls die from blood loss or infection as a direct result
+    of the procedure. Other consequences include: constant pain, repeated infections,
+    bleeding, cysts and abscesses, problems passing urine or incontinence, depression,
+    flashbacks, self-harm and childbirth problems sometimes leading to death. "
+  - 'FGM is carried out on girls of all ages but usually occurs before the age of
+    15 years and may be more common between the ages of 5 and 10. '
+  - FGM is also known as female circumcision or cutting. Terms in other languages
+    include sunna, gudniin, halalays, tahur, megrez and khitan among other names.
+  - FGM is illegal. It is a form of child abuse and must never be carried out either
+    here or abroad. It is also illegal to arrange for a child to be taken abroad for
+    the procedure or to help someone carry out FGM in any way. Anyone found guilty
+    of this faces up to 14 years in prison and may also be made to pay a fine.
+  - "FGM is practiced because it is perceived to: rid the family of bad luck/evil
+    spirits, be aesthetically desirable, preserve a girl\u2019s virginity, be a tradition
+    of family and/or community, make future child birth safer, uphold family honour,
+    be a rite of passage into womanhood, make the girl more \u2018marriageable\u2019,
+    be a religious obligation and cleanse and purify the girl among other myths."
+  - It is estimated that 200 million females alive today have undergone FGM. Furthermore
+    3 million are at risk of undergoing FGM each year
+  - FGM is documented in 30 countries-mainly Africa followed by Middle east and Asia.
+    Egypt, Sudan, Somalia, Mali, Sierra Leone, Eritrea, Djibouti, Guinea all have
+    over 88%
   factDelay: 0.2
   factLength: 2
-  beforeFactsQuiz: {fileID: 643586997}
-  afterFactsQuiz: {fileID: 1205541374}
+  nextFactButton: {fileID: 8796441589643441692}
+  beforeFactsQuiz: {fileID: 0}
+  afterFactsQuiz: {fileID: 0}
   showFacts: 0
---- !u!1 &643586997 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1293521660754069759, guid: 7e817feba02a2f944844f3fcd9440d49,
-    type: 3}
-  m_PrefabInstance: {fileID: 1293521661330019146}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1205541374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1293521660225407668, guid: 7e817feba02a2f944844f3fcd9440d49,
-    type: 3}
-  m_PrefabInstance: {fileID: 1293521661330019146}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1599211204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -457,22 +469,7 @@ PrefabInstance:
     - target: {fileID: 1293521659688152687, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_Name
-      value: QuizCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521659688152687, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521660754069759, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521660225407668, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      value: RoomCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -589,55 +586,93 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521660616227103, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_havePropertiesChanged
+      propertyPath: m_SizeDelta.x
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -183.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421885696116223160, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 435a404c454dc2c478efbedbb1919f07,
+        type: 3}
+    - target: {fileID: 4421885696116223160, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521660616227103, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_isInputParsingRequired
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521660129524328, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 461151743}
-    - target: {fileID: 1293521660946644039, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 461151743}
-    - target: {fileID: 1293521659690906487, guid: 7e817feba02a2f944844f3fcd9440d49,
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BTN_NextFact
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 461151743}
-    - target: {fileID: 1293521660779675042, guid: 7e817feba02a2f944844f3fcd9440d49,
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779509131633041004, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_havePropertiesChanged
+      propertyPath: m_Text
+      value: Tap to continue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779509131633041004, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521660779675042, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 3779509131633041004, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
+      propertyPath: m_FontData.m_MaxSize
+      value: 32
       objectReference: {fileID: 0}
-    - target: {fileID: 1293521661173428219, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 461151743}
-    - target: {fileID: 1293521660813313286, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 461151743}
-    - target: {fileID: 1293521659791555281, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 461151743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
+--- !u!114 &8796441589643441692 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1293521661330019146}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

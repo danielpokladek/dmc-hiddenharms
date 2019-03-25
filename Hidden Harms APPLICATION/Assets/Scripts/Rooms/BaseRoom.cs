@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -15,6 +16,7 @@ namespace Rooms
         public string[] roomFacts;
         public float factDelay = .5f;
         public float factLength = 3f;
+        public Button nextFactButton;
         public GameObject beforeFactsQuiz;
         public GameObject afterFactsQuiz;
 
@@ -23,11 +25,17 @@ namespace Rooms
         private float timer     = 0;
         private WebForm webManager;
 
+        public void BTN_NextFact()
+        {
+            NextFact();
+        }
+
         public virtual void Start() {
             webManager = WebForm.WebManager;
-            
+
             //beforeFactsQuiz.SetActive(true);
             //afterFactsQuiz.SetActive(false);
+            nextFactButton.interactable = false;
             factsUI.text = roomFacts[factNo];
             factsUI.enabled = true;
             showFacts = true;
@@ -45,7 +53,7 @@ namespace Rooms
 
                     if ((timer > factDelay && Input.GetMouseButtonDown(0)) ||
                         (timer > factLength))
-                        NextFact();
+                        nextFactButton.interactable = true;
                 }
             }
         }
@@ -60,6 +68,7 @@ namespace Rooms
             }
             else {
                 factsUI.text = roomFacts[factNo];
+                nextFactButton.interactable = false;
             }
         }
 
