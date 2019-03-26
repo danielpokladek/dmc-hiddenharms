@@ -7,6 +7,7 @@ using TMPro;
 
 namespace Rooms
 {
+    [RequireComponent(typeof(QuizController))]
     public class BaseRoom : MonoBehaviour
     {
         [Header("Room Settings")]
@@ -17,8 +18,8 @@ namespace Rooms
         public float factDelay = .5f;
         public float factLength = 3f;
         public Button nextFactButton;
-        public GameObject beforeFactsQuiz;
-        public GameObject afterFactsQuiz;
+
+        private QuizController quiz;
 
         [HideInInspector] public bool showFacts  = false;
         private int factNo      = 0;
@@ -27,6 +28,8 @@ namespace Rooms
 
         public void BTN_NextFact()
         {
+            quiz = GetComponent<QuizController>();
+
             NextFact();
         }
 
@@ -74,10 +77,12 @@ namespace Rooms
 
         private void AftQuiz()
         {
+            quiz.ShowQuiz();
+
             //factsUI.enabled = false;
             //showFacts       = false;
             //afterFactsQuiz.SetActive(true);
-            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(0);
         }
 
         #region Button Functions
