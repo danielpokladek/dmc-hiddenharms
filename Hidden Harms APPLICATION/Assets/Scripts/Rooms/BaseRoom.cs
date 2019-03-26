@@ -13,7 +13,8 @@ namespace Rooms
         [Header("Room Settings")]
         public bool sendData = false;
         public bool hasFacts = false;
-        public TMP_Text factsUI;
+        public TMP_Text factsText;
+        public GameObject factsUI;
         public string[] roomFacts;
         public float factDelay = .5f;
         public float factLength = 3f;
@@ -39,8 +40,8 @@ namespace Rooms
             //beforeFactsQuiz.SetActive(true);
             //afterFactsQuiz.SetActive(false);
             nextFactButton.interactable = false;
-            factsUI.text = roomFacts[factNo];
-            factsUI.enabled = true;
+            factsText.text = roomFacts[factNo];
+            factsText.enabled = true;
             showFacts = true;
         }
 
@@ -63,20 +64,21 @@ namespace Rooms
 
         private void NextFact() {
             timer = 0;
-            factsUI.text = "";
+            factsText.text = "";
             factNo++;
 
             if (factNo > roomFacts.Length - 1) {
                 AftQuiz();
             }
             else {
-                factsUI.text = roomFacts[factNo];
+                factsText.text = roomFacts[factNo];
                 nextFactButton.interactable = false;
             }
         }
 
         private void AftQuiz()
         {
+            factsUI.SetActive(false);
             quiz.ShowQuiz();
 
             //factsUI.enabled = false;

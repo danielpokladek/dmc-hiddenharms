@@ -11,7 +11,7 @@ public class Kitchen : BaseRoom
         AddToForm(value);
         
         showFacts = true;
-        factsUI.enabled = true;
+        factsText.enabled = true;
     }
 
     public void BTN_KnowledgeAfter(string value)

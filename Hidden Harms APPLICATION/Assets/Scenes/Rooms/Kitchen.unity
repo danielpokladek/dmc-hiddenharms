@@ -112,6 +112,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &332315149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332315151}
+  - component: {fileID: 332315150}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &332315150
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332315149}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &332315151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332315149}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &439811874
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +193,7 @@ GameObject:
   - component: {fileID: 439811876}
   - component: {fileID: 439811875}
   - component: {fileID: 439811878}
+  - component: {fileID: 439811879}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -164,7 +234,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -189,7 +259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439811874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2.56, y: 1.52, z: -6.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -209,16 +279,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sendData: 0
   hasFacts: 1
-  factsUI: {fileID: 1680278710}
+  factsText: {fileID: 1680278717}
+  factsUI: {fileID: 1680278718}
   roomFacts:
-  - Fact 1
-  - Fact 2
-  - Fact 3
-  factDelay: 0.5
-  factLength: 3
-  beforeFactsQuiz: {fileID: 1680278712}
-  afterFactsQuiz: {fileID: 1680278711}
+  - Modern slavery is the recruiting, moving, holding and receiving of people using
+    force, deception, coercion or abuse for the purpose of exploiting them
+  - A person is trafficked if they are moved into, out of or within the UK (or another
+    country) under threat or fear of harm. A person may be trafficked for various
+    reasons including sexual exploitation, forced labour, domestic servitude and organ
+    harvesting.
+  - 'Individuals are more at risk of becoming a victim of Modern slavery if they:
+    are homeless; in poverty; have limited education; experience language barriers;
+    have mental health issues; or are dependent on drugs.'
+  - 'Signs of Modern slavery concerning labour include: inadequate working equipment;
+    paid below the minimum wage or money withheld; long hours; chaperoned to/from
+    work and living in accommodation provided by the employer.'
+  - 'Signs of Modern slavery concerning domestic servitude include: unable to leave
+    the house unaccompanied; isolated; passport confiscated; no money; not able to
+    feel free to leave and inappropriate power relationships in the family.'
+  - 'Signs of Modern slavery concerning sexual exploitation include: underage victim;
+    unexplained injuries; lack of belongings; being chaperoned; unable to keep money
+    and kept in overcrowded accommodation or a brothel.'
+  - 'Victims of Modern slavery can be men, women and children from any background.
+    However, those amongst minority or socially excluded groups are more at risk. '
+  - Methods used to control victims of Modern slavery include physical abuse, sexual
+    abuse, emotional manipulation, debt bondage, confiscated passports and isolation
+  factDelay: 0.01
+  factLength: 0.01
+  nextFactButton: {fileID: 1680278716}
   showFacts: 0
+--- !u!114 &439811879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439811874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a12de2fcac18e2d44906d7c01125b4d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wrongAnswer: {fileID: 1680278715}
+  quizQuestions:
+  - {fileID: 1680278714}
+  - {fileID: 1680278713}
+  - {fileID: 1680278712}
+  - {fileID: 1680278711}
+  - {fileID: 1680278710}
 --- !u!1 &1198512452
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +393,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1496780354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2293216538555159011, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_Name
+      value: Kitchen_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac49fe337b74cc3499baa69a8649e75f, type: 3}
 --- !u!1001 &1680278709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,6 +473,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuizCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Organ harvesting
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Domestic servitude
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -412,6 +619,141 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6318030377688844082, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856318712737480879, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: What are the reasons a person may be trafficked?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856318712737480879, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856318712737480879, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606631883035534624, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Sexual exploitation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606631883035534624, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606631883035534624, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337757951816749527, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337757951816749527, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337757951816749527, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412893195355144914, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: What makes a person at risk of Modern Slavery?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996651625856449018, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Language barriers
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853014559868103962, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Drug addiction
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938229976490678862, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Poverty
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479562813343745274, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 'Methods used to control victims of modern slavery can be:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833072689648737883, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Isolation
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119872909296239638, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Passport witheld
+      objectReference: {fileID: 0}
+    - target: {fileID: 8553115527373724724, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Physical abuse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977096014990699259, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: What statement is true?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011683153198129082, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Only men are victims of Modern Slavery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130492317861510472, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) Only minority groups can be victims of modern slavery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519073429869579676, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Anyone can be a victim of modern slavery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833991451834299066, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Children are not victims of modern slavery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2814214593309974111, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: What are the signs of modern slavery?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007367025253975004, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Charperoned to and from workplace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262877728710666708, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Unexplained injuries
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221408307929435112, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Overcrowded accomodation
+      objectReference: {fileID: 0}
     - target: {fileID: 1293521660616227103, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -492,9 +834,83 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BTN_KnowledgeAfter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1300682465228389156, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269566037992047862, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269566037992047862, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 752791259, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
---- !u!114 &1680278710 stripped
+--- !u!1 &1680278710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5117202461053390031, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1680278711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5507401223856207258, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1680278712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8538655619921055536, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1680278713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3269763968896947743, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1680278714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5599863851737895075, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1680278715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1300682465228389156, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1680278716 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680278709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1680278717 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
     type: 3}
@@ -506,15 +922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1680278711 stripped
+--- !u!1 &1680278718 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1293521660225407668, guid: 7e817feba02a2f944844f3fcd9440d49,
-    type: 3}
-  m_PrefabInstance: {fileID: 1680278709}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1680278712 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1293521660754069759, guid: 7e817feba02a2f944844f3fcd9440d49,
+  m_CorrespondingSourceObject: {fileID: 1293521659319401168, guid: 7e817feba02a2f944844f3fcd9440d49,
     type: 3}
   m_PrefabInstance: {fileID: 1680278709}
   m_PrefabAsset: {fileID: 0}
