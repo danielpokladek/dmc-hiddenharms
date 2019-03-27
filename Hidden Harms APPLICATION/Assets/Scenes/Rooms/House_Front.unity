@@ -338,13 +338,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sendData: 0
   hasFacts: 0
+  factsText: {fileID: 0}
   factsUI: {fileID: 0}
   roomFacts: []
   factDelay: 0.5
   factLength: 3
   nextFactButton: {fileID: 0}
-  beforeFactsQuiz: {fileID: 0}
-  afterFactsQuiz: {fileID: 0}
   showFacts: 0
   SelectLangScreen: {fileID: 199515739}
   NationalityScreen: {fileID: 734146193}
@@ -1051,7 +1050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &199515740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1700,7 +1699,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1744,7 +1743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &338757812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,7 +1972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 4
+  roomScene: 5
 --- !u!1 &351744848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,7 +2125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 3
+  roomScene: 4
 --- !u!1 &369815748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2320,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -5953,7 +5952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 1
+  roomScene: 2
 --- !u!61 &1582352645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6760,7 +6759,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -7100,7 +7099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 2
+  roomScene: 3
 --- !u!1 &1884990728
 GameObject:
   m_ObjectHideFlags: 0
