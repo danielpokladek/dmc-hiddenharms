@@ -6,6 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class Kitchen : BaseRoom
 {
+    public override void Start()
+    {
+        base.Start();
+
+        if (GameManager.manager != null)
+            roomFacts = GameManager.manager.languageSO.GetFGMFacts;
+
+        UpdateFacts();
+    }
+
     public void BTN_KnowledgeBefore(string value)
     {
         AddToForm(value);

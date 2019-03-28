@@ -5,7 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager manager = null;
-    
+
+    public Language_SO languageSO;
+
     [SerializeField] private bool bathroom, bedroom, kitchen, frontroom;
 
     public GameManager()

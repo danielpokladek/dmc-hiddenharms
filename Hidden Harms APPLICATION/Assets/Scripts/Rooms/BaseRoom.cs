@@ -23,8 +23,8 @@ namespace Rooms
         private QuizController quiz;
 
         [HideInInspector] public bool showFacts  = false;
-        private int factNo      = 0;
-        private float timer     = 0;
+        private int factIterator    = 0;
+        private float timer         = 0;
         private WebForm webManager;
 
         public void BTN_NextFact()
@@ -40,13 +40,18 @@ namespace Rooms
             //beforeFactsQuiz.SetActive(true);
             //afterFactsQuiz.SetActive(false);
             nextFactButton.interactable = false;
-            factsText.text = roomFacts[factNo];
+            factsText.text = roomFacts[factIterator];
             factsText.enabled = true;
             showFacts = true;
         }
 
         public void SendFormData(string formAddress) {
 
+        }
+
+        public void UpdateFacts()
+        {
+            factsText.text = roomFacts[factIterator];
         }
 
         private void Update()
@@ -65,13 +70,13 @@ namespace Rooms
         private void NextFact() {
             timer = 0;
             factsText.text = "";
-            factNo++;
+            factIterator++;
 
-            if (factNo > roomFacts.Length - 1) {
+            if (factIterator > roomFacts.Length - 1) {
                 AftQuiz();
             }
             else {
-                factsText.text = roomFacts[factNo];
+                factsText.text = roomFacts[factIterator];
                 nextFactButton.interactable = false;
             }
         }

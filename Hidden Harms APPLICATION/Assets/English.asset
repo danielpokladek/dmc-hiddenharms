@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f2da763e58f524f8639faf1878fd0b, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  languageName: English
+  FGM_Facts:
+  - Female Genital Mutilation (FGM) is the procedure of female genital organs being
+    deliberately cut or injured, although there is no medical reason for this to be
+    done.
+  - "FGM is very painful and seriously harmful to the female\u2019s both short- and
+    long-term health. Some girls die from blood loss or infection as a direct result
+    of the procedure. Other consequences include: constant pain, repeated infections,
+    bleeding, cysts and abscesses, problems passing urine or incontinence, depression,
+    flashbacks, self-harm and childbirth problems sometimes leading to death. "
+  - 'FGM is carried out on girls of all ages but usually occurs before the age of
+    15 years and may be more common between the ages of 5 and 10. '
+  - FGM is also known as female circumcision or cutting. Terms in other languages
+    include sunna, gudniin, halalays, tahur, megrez and khitan among other names.
+  - FGM is illegal. It is a form of child abuse and must never be carried out either
+    here or abroad. It is also illegal to arrange for a child to be taken abroad for
+    the procedure or to help someone carry out FGM in any way. Anyone found guilty
+    of this faces up to 14 years in prison and may also be made to pay a fine.
+  - "FGM is practiced because it is perceived to: rid the family of bad luck/evil
+    spirits, be aesthetically desirable, preserve a girl\u2019s virginity, be a tradition
+    of family and/or community, make future child birth safer, uphold family honour,
+    be a rite of passage into womanhood, make the girl more \u2018marriageable\u2019,
+    be a religious obligation and cleanse and purify the girl among other myths."
+  - It is estimated that 200 million females alive today have undergone FGM. Furthermore
+    3 million are at risk of undergoing FGM each year
+  - FGM is documented in 30 countries-mainly Africa followed by Middle east and Asia.
+    Egypt, Sudan, Somalia, Mali, Sierra Leone, Eritrea, Djibouti, Guinea all have
+    over 88%
+  DA_Facts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  MS_Facts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  ONS_Facts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
