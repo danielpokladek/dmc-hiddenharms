@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8754693994582488734}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -41,10 +41,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8754693994582488729}
     m_Modifications:
-    - target: {fileID: 100000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
-      propertyPath: m_Name
-      value: bedroom_1
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.15
@@ -89,6 +85,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
+      propertyPath: m_Name
+      value: bedroom_1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01464fa67cace2440a516e25bba05507, type: 3}
 --- !u!4 &223592370525679743 stripped
@@ -114,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 01dcce7cf1827ce458b5c36098006b32, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -0.879
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 01dcce7cf1827ce458b5c36098006b32, type: 3}
       propertyPath: m_LocalPosition.z
@@ -152,6 +164,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 01dcce7cf1827ce458b5c36098006b32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6c83675353b124d8b40112d58acd15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01dcce7cf1827ce458b5c36098006b32, type: 3}
 --- !u!4 &6184137892199405939 stripped
@@ -173,11 +189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13b5d09cf59608641814691fa5cb29cc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.949
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13b5d09cf59608641814691fa5cb29cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.279
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13b5d09cf59608641814691fa5cb29cc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -230,14 +246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8754693994582488729}
     m_Modifications:
-    - target: {fileID: 100000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
-      propertyPath: m_Name
-      value: bedroom
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.15
@@ -280,6 +288,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
+      propertyPath: m_Name
+      value: bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a08084c484b284549b435ae05bb31c12, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

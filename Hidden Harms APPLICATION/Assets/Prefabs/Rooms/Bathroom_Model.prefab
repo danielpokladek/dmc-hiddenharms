@@ -23,9 +23,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527884653243910177}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 527884652971730420}
   - {fileID: 9212552616265941465}
@@ -61,8 +61,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7738337489036803306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.199, y: -0.053, z: 6.504}
-  m_LocalScale: {x: 1.6, y: 1.8, z: 1}
+  m_LocalPosition: {x: 0.199, y: -0.053, z: 4.939}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_Children: []
   m_Father: {fileID: 527884653243910176}
   m_RootOrder: 4
@@ -122,14 +122,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527884653243910176}
     m_Modifications:
-    - target: {fileID: 100000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
-      propertyPath: m_Name
-      value: bathroom
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -174,6 +166,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
+      propertyPath: m_Name
+      value: bathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb7700cfa832cdf4285a3ba3b6f272cd, type: 3}
 --- !u!4 &527884652971730420 stripped
@@ -189,13 +189,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527884653243910176}
     m_Modifications:
-    - target: {fileID: 100000, guid: fbb7ce38d8df52e439055671a3777e35, type: 3}
-      propertyPath: m_Name
-      value: toilet
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fbb7ce38d8df52e439055671a3777e35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.007
+      value: -1.8910642
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fbb7ce38d8df52e439055671a3777e35, type: 3}
       propertyPath: m_LocalPosition.y
@@ -245,6 +241,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fbb7ce38d8df52e439055671a3777e35, type: 3}
+      propertyPath: m_Name
+      value: toilet
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbb7ce38d8df52e439055671a3777e35, type: 3}
 --- !u!4 &2729096790734867550 stripped
@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 68a3c3a3693b71b43a54e84484f7f252, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.484064
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 68a3c3a3693b71b43a54e84484f7f252, type: 3}
       propertyPath: m_LocalPosition.y
@@ -331,13 +331,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527884653243910176}
     m_Modifications:
-    - target: {fileID: 100000, guid: 12c43a650d75b384fa2788245a2ecd3d, type: 3}
-      propertyPath: m_Name
-      value: bath
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12c43a650d75b384fa2788245a2ecd3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.041
+      value: -0.9250642
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12c43a650d75b384fa2788245a2ecd3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -383,6 +379,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.0561755
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12c43a650d75b384fa2788245a2ecd3d, type: 3}
+      propertyPath: m_Name
+      value: bath
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c43a650d75b384fa2788245a2ecd3d, type: 3}
 --- !u!4 &4513312115529995369 stripped
@@ -398,10 +398,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527884653243910176}
     m_Modifications:
-    - target: {fileID: 100000, guid: c1fa4bd8c44da3b439e77859e118f9f5, type: 3}
-      propertyPath: m_Name
-      value: bathroom_1
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c1fa4bd8c44da3b439e77859e118f9f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -445,6 +441,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c1fa4bd8c44da3b439e77859e118f9f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c1fa4bd8c44da3b439e77859e118f9f5, type: 3}
+      propertyPath: m_Name
+      value: bathroom_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1fa4bd8c44da3b439e77859e118f9f5, type: 3}
