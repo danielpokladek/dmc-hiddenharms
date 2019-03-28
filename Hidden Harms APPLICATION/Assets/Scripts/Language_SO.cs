@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [CreateAssetMenu(fileName ="NewLanguageFile", menuName ="Language File")]
 public class Language_SO : ScriptableObject
@@ -12,21 +13,32 @@ public class Language_SO : ScriptableObject
      *  Next fill out all of the required fields, and attach the file to the language selection menu.
      *  
      *  To-Do:
-     *      - Implement the basic data access
-     *      - Load facts for one of the rooms
+     *      - (Done) Implement the basic data access
+     *      - (Done) Load facts for one of the rooms
      *      - Load facts for rest of the rooms
      *      - Load quiz questions
      *      - Load quiz answers
      *      - Make sure quiz questions & answers are loaded in correct order
+     *      - Load demographics items, at the start of the game in selected language
+     *      - Load knowledge test, in the selected language
      *      - Fix any other bugs if occur.
      *   
      */
 
-    public string languageName;
-    [SerializeField] private string[] FGM_Facts = new string[8];
-    [SerializeField] private string[] DA_Facts = new string[8];
-    [SerializeField] private string[] MS_Facts = new string[8];
-    [SerializeField] private string[] ONS_Facts = new string[8];
+    [SerializeField] private string languageName;                       // Name of the langauge.
+    [SerializeField] private TMP_FontAsset languageFont;                // Font used with this language.
+    [SerializeField] private string[] FGM_Facts = new string[8];        // Facts about FGM.
+    [SerializeField] private string[] DA_Facts = new string[8];         // Facts about Domestic Abuse.
+    [SerializeField] private string[] MS_Facts = new string[8];         // Facts about Modern Slavery.
+    [SerializeField] private string[] ONS_Facts = new string[8];        // Facts about Online Safety.
 
+
+    #region Getters
+    public string GetLangName { get { return languageName; } }
+    public TMP_FontAsset GetFont { get { return languageFont; } }
     public string[] GetFGMFacts { get { return FGM_Facts; } }
+    public string[] GetDAFacts { get { return DA_Facts; } }
+    public string[] GetMSFacts { get { return MS_Facts; } }
+    public string[] GetONSFacts { get { return ONS_Facts; } }
+    #endregion
 }

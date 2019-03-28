@@ -42,6 +42,12 @@ namespace Rooms
         }
 
         #region Button Functions
+        public void _SETLANGUAGE(Language_SO language)
+        {
+            if (GameManager.manager != null)
+                GameManager.manager.languageSO = language;
+        }
+
         public void BTN_SelectLanguage(string value)
         {
             AddToForm(value);

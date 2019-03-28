@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: English
   m_EditorClassIdentifier: 
   languageName: English
+  languageFont: {fileID: 11400000, guid: ae205eac2d62d0a49b31466294c813f7, type: 2}
   FGM_Facts:
   - Female Genital Mutilation (FGM) is the procedure of female genital organs being
     deliberately cut or injured, although there is no medical reason for this to be
@@ -41,29 +42,85 @@ MonoBehaviour:
     Egypt, Sudan, Somalia, Mali, Sierra Leone, Eritrea, Djibouti, Guinea all have
     over 88%
   DA_Facts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Domestic abuse can be defined as the occurrence, or pattern of occurrences, of
+    violent behaviour by a partner, ex-partner or family member.
+  - "Domestic abuse can include financial abuse. This involves the perpetrator using
+    money to control a person\u2019s actions and freedom of choice. This can take
+    away independence and leave them with no money for food or clothing. It can sometimes
+    leave a person with debts built up by the perpetrator."
+  - Domestic abuse can include coercive control. This is a pattern of intimidation,
+    isolation and control using or threatening physical or sexual violence. It creates
+    a sense of fear and deprives a person of their freedom. It is suggested that it
+    is like being taken hostage.
+  - Domestic abuse can include harassment and stalking. This is when a person becomes
+    fixated with another and can be persistent with unwanted attention. They can damage
+    property, spy and follow, make threats or try to make unwanted contact. This can
+    be frightening and upsetting.
+  - "Domestic abuse can include digital abuse. Online platforms, such as Facebook
+    and Twitter, are being used increasingly to perpetrate domestic abuse. For example,
+    photos and videos posted without consent. Additionally, GPS locators or spyware
+    are used to track a person\u2019s whereabouts."
+  - 'Domestic abuse can have long term effects on health and well-being. This can
+    include asthma, epilepsy, digestive problems, migraines and skin disorders. It
+    can also affect mental health and lead to alcohol or drug misuse. '
+  - "Women are more likely to experience domestic abuse. Men are more likely to be
+    perpetrators of domestic abuse. Although this abuse occurs regardless of a woman\u2019s
+    race, religion, sexuality or disability, women from minority groups often face
+    extra barriers when seeking support. "
+  - "Forced marriage, female genital mutilation and honour crimes (violence, including
+    murder, committed by people \u2018defending\u2019 their family\u2019s or community\u2019s
+    reputation) are all perpetrated by family members and are therefore forms of domestic
+    abuse"
   MS_Facts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - '- REMEMBER TO REPLACE THIS FACT -'
+  - A person is trafficked if they are moved into, out of or within the UK (or another
+    country) under threat or fear of harm. A person may be trafficked for various
+    reasons including sexual exploitation, forced labour, domestic servitude and organ
+    harvesting.
+  - 'Individuals are more at risk of becoming a victim of Modern slavery if they:
+    are homeless; in poverty; have limited education; experience language barriers;
+    have mental health issues; or are dependent on drugs.'
+  - 'Signs of Modern slavery concerning labour include: inadequate working equipment;
+    paid below the minimum wage or money withheld; long hours; chaperoned to/from
+    work and living in accommodation provided by the employer.'
+  - 'Signs of Modern slavery concerning domestic servitude include: unable to leave
+    the house unaccompanied; isolated; passport confiscated; no money; not able to
+    feel free to leave and inappropriate power relationships in the family.'
+  - 'Signs of Modern slavery concerning sexual exploitation include: underage victim;
+    unexplained injuries; lack of belongings; being chaperoned; unable to keep money
+    and kept in overcrowded accommodation or a brothel.'
+  - 'Victims of Modern slavery can be men, women and children from any background.
+    However, those amongst minority or socially excluded groups are more at risk. '
+  - Methods used to control victims of Modern slavery include physical abuse, sexual
+    abuse, emotional manipulation, debt bondage, confiscated passports and isolation
   ONS_Facts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "To stay safe online it is important to NOT share \u2018Personal Information\u2019.
+    Personal information includes your name, address, phone number, password and name
+    of school. Beware of school badges on jumpers! Use privacy settings when using
+    social networking apps so only people you know can see your content."
+  - 'You cannot retrieve material once it has been posted online. Anything uploaded,
+    emailed or messaged could stay online forever. Only post things that you would
+    not mind your family or a future employer seeing. If a child has posted a nude
+    image, known as sexting, report it to www.ceop.police.uk and contact Childline:
+    0800 1111 who will help remove known copies. Think carefully about sharing images
+    of others. It is ILLEGAL to create or share a sexual image of a child under 18
+    years. '
+  - Look for these age limits and images on the cover of computer games to protect
+    from  inappropriate or worrying content.
+  - "You or your child may meet people online or visit websites that result in adopting
+    extreme views and becoming radicalized. Signs of the process of radicalisation
+    include: feeling that one\u2019s religion, culture or beliefs are under threat,
+    being secretive online and becoming emotionally unstable. The radicalization process
+    can evoke false feelings of being special, listened to, understood and wrongly
+    imply the need to regain an identity and sense of belonging. "
+  - 'To stay safe online it is important to turn off location settings so you do not
+    unintentionally share your location with others. '
+  - For children and young people, use alternative search engines such as www.kidzsearch.com
+    or www.swiggle.org.uk to protect from unwanted inappropriate content. Safe settings
+    should also be activated on YouTube or Google.
+  - 'f you are worried about anything online, it is important to know what to do:
+    visit www.thinkuknow.co.uk'
+  - 'Sometimes people hide behind fake profiles for dishonest reasons such as for
+    sexual purposes. This is known as grooming. Do not meet up with anyone you have
+    befriended online. However if you do, meet in a public place, do not go alone
+    and always tell a friend where you will be. '
