@@ -11,9 +11,19 @@ public class Kitchen : BaseRoom
         base.Start();
 
         if (GameManager.manager != null)
+        {
             roomFacts = GameManager.manager.languageSO.GetFGMFacts;
+            factsText.font = GameManager.manager.languageSO.GetFont;
+        }
 
         UpdateFacts();
+    }
+
+    public override void AftQuiz()
+    {
+        base.AftQuiz();
+
+        GameManager.manager.SetKitchen = true;
     }
 
     public void BTN_KnowledgeBefore(string value)

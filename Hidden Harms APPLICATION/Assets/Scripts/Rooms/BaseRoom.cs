@@ -81,7 +81,7 @@ namespace Rooms
             }
         }
 
-        private void AftQuiz()
+        public virtual void AftQuiz()
         {
             factsUI.SetActive(false);
             quiz.ShowQuiz();
