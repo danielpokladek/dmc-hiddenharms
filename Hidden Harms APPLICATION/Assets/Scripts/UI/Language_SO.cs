@@ -25,12 +25,12 @@ public class Language_SO : ScriptableObject
      *   
      */
 
-    [SerializeField] private string languageName;                       // Name of the langauge.
-    [SerializeField] private TMP_FontAsset languageFont;                // Font used with this language.
-    [SerializeField] private string[] FGM_Facts = new string[8];        // Facts about FGM.
-    [SerializeField] private string[] DA_Facts = new string[8];         // Facts about Domestic Abuse.
-    [SerializeField] private string[] MS_Facts = new string[8];         // Facts about Modern Slavery.
-    [SerializeField] private string[] ONS_Facts = new string[8];        // Facts about Online Safety.
+    [SerializeField] private string languageName;                               // Name of the langauge.
+    [SerializeField] private TMP_FontAsset languageFont;                        // Font used with this language.
+    [SerializeField] [TextArea] private string[] FGM_Facts  = new string[8];    // Facts about FGM.
+    [SerializeField] [TextArea] private string[] DA_Facts   = new string[8];    // Facts about Domestic Abuse.
+    [SerializeField] [TextArea] private string[] MS_Facts   = new string[8];    // Facts about Modern Slavery.
+    [SerializeField] [TextArea] private string[] ONS_Facts  = new string[8];    // Facts about Online Safety.
 
 
     #region Getters

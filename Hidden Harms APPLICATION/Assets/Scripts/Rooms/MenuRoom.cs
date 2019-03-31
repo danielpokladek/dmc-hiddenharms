@@ -28,58 +28,22 @@ namespace Rooms
             GenderScreen.SetActive(false);
             AgeScreen.SetActive(false);
 
-            if (_gameManager.DemographicsSet == false)
-            {
-                dollHouse.SetActive(false);
-                UI.SetActive(true);
-            }
-            else
-            {
-                dollHouse.SetActive(true);
-                UI.SetActive(false);
+            //if (_gameManager.DemographicsSet == false)
+            //{
+            //    dollHouse.SetActive(false);
+            //    UI.SetActive(true);
+            //}
+            //else
+            //{
+            //    dollHouse.SetActive(true);
+            //    UI.SetActive(false);
                 
-            }
+            //}
         }
 
-        #region Button Functions
-        public void _SETLANGUAGE(Language_SO language)
+        public void EnableDollhouse()
         {
-            if (GameManager.manager != null)
-                GameManager.manager.languageSO = language;
-        }
-
-        public void BTN_SelectLanguage(string value)
-        {
-            AddToForm(value);
-
-            SelectLangScreen.SetActive(false);
-            NationalityScreen.SetActive(true);
-        }
-
-        public void BTN_SetNationality(string value)
-        {
-            AddToForm(value);
-
-            NationalityScreen.SetActive(false);
-            GenderScreen.SetActive(true);
-        }
-
-        public void BTN_SetGender(string value)
-        {
-            AddToForm(value);
-
-            GenderScreen.SetActive(false);
-            AgeScreen.SetActive(true);
-        }
-
-        public void BTN_SetAge(string value)
-        {
-            AddToForm(value);
-
-            _gameManager.DemographicsSet = true;
-            DemographicsUI.SetActive(false);
             dollHouse.SetActive(true);
         }
-        #endregion
     }
 }

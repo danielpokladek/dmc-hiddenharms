@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class TitleAnim : MonoBehaviour
 {
+    public Demographics _demoScript;
     public Animation anim;
 
+    public Camera animCamera;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,18 @@ public class TitleAnim : MonoBehaviour
         anim.Play();
         
 
+    }
+
+    public void ShowDemographics()
+    {
+        ToggleCamera();
+        _demoScript.DemographicsMenu();
+    }
+
+    private void ToggleCamera()
+    {
+        animCamera.gameObject.SetActive(false);
+        Camera.main.gameObject.SetActive(true);
     }
 
     public void ChangeScene()

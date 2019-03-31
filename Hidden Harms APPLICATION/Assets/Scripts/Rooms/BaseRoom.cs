@@ -98,7 +98,7 @@ namespace Rooms
         /// </summary>
         /// <param name="field">Name of the field, and the value. (use comma ',' to split the field name and the value).
         ///                         The field name should always come first, and value after; for example "entry.000,value".</param>
-        protected void AddToForm(string field)
+        public void AddToForm(string field)
         {
             string[] splitParams = field.Split(',');
 

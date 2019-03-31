@@ -15,4 +15,9 @@ public class Room : MonoBehaviour
     {
         SceneManager.LoadScene(roomScene);
     }
+
+    public void BTN_GoToRoom()
+    {
+        SceneManager.LoadScene(roomScene);
+    }
 }
