@@ -2921,7 +2921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 5
+  roomScene: 4
 --- !u!1 &351744848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,7 +3166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 4
+  roomScene: 3
 --- !u!1 &369815748
 GameObject:
   m_ObjectHideFlags: 0
@@ -10939,7 +10939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 2
+  roomScene: 1
 --- !u!61 &1582352645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12433,7 +12433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 0}
-  roomScene: 3
+  roomScene: 2
 --- !u!1 &1884990728
 GameObject:
   m_ObjectHideFlags: 0
