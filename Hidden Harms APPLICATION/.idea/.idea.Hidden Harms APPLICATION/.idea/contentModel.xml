@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\2kXswitX\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\2kXswitX\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Hidden Harms APPLICATION.-1073995904.00" t="ExcludeRecursive" />
-    <e p="C:\Users\2kXswitX\Documents\GitHub\dmc-hiddenharms\Hidden Harms APPLICATION" t="IncludeRecursive">
+    <e p="C:\Users\danli\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\danli\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Hidden Harms APPLICATION.1599251400.00" t="ExcludeRecursive" />
+    <e p="C:\Users\danli\Documents\GitHub\dmc-hiddenharms\Hidden Harms APPLICATION" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="RTLTMPro" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ContextMenu.cs" t="Include" />
+            <e p="RTLTextMeshPro3DEditor.cs" t="Include" />
+            <e p="RTLTextMeshProEditor.cs" t="Include" />
+          </e>
+          <e p="EnglishNumbers.cs" t="Include" />
+          <e p="FarsiNumbers.cs" t="Include" />
+          <e p="GeneralLetters.cs" t="Include" />
+          <e p="GlyphMapping.cs" t="Include" />
+          <e p="GlyphTable.cs" t="Include" />
+          <e p="HinduNumbers.cs" t="Include" />
+          <e p="IsolatedLetters.cs" t="Include" />
+          <e p="Ranges" t="Include">
+            <e p="LetterRanges.txt" t="Include" />
+            <e p="NumberRanges.txt" t="Include" />
+            <e p="TashkilRanges.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="TMP_SDF Fixed.shader" t="Include" />
+              <e p="TMP_SDF Overlay Fixed.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Fixed.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking Fixed.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay Fixed.shader" t="Include" />
+              <e p="TMP_SDF-Surface Fixed.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile Fixed.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+              <e p="TMPro_SurfaceOutline.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="RTLDefaultControls.cs" t="Include" />
+          <e p="RTLSupport.cs" t="Include" />
+          <e p="RTLTextMeshPro.cs" t="Include" />
+          <e p="RTLTextMeshPro3D.cs" t="Include" />
+          <e p="TashkeelLocation.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="GameManager.cs" t="Include" />
           <e p="Old Scripts" t="Include">
@@ -17,10 +57,17 @@
             <e p="BaseRoom.cs" t="Include" />
             <e p="Bathroom.cs" t="Include" />
             <e p="Bedroom.cs" t="Include" />
+            <e p="FrontRoom.cs" t="Include" />
             <e p="Kitchen.cs" t="Include" />
             <e p="MenuRoom.cs" t="Include" />
           </e>
           <e p="TitleAnim.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Demographics.cs" t="Include" />
+            <e p="FontController.cs" t="Include" />
+            <e p="Language_SO.cs" t="Include" />
+            <e p="QuizController.cs" t="Include" />
+          </e>
           <e p="WebForm.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
@@ -46,6 +93,24 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="unity-ui-extensions" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Effects" t="Include">
+              <e p="UIParticleSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="UI Particle Add.shader" t="Include" />
+            <e p="UI Particle AddMultiply.shader" t="Include" />
+            <e p="UI Particle AddSmooth.shader" t="Include" />
+            <e p="UI Particle Alpha Blend.shader" t="Include" />
+            <e p="UI Particle Blend.shader" t="Include" />
+            <e p="UI Particle Multiply.shader" t="Include" />
+            <e p="UI Particle MultiplyDouble.shader" t="Include" />
+            <e p="UI Particle Premultiply Blend.shader" t="Include" />
+            <e p="UI Particle VertexLit Blended.shader" t="Include" />
           </e>
         </e>
       </e>

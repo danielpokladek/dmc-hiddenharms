@@ -13,6 +13,8 @@ public class Demographics : MonoBehaviour
     public GameObject UI_selectAge;
     public GameObject UI_demographics;
 
+    public GameObject dollhouse;
+
     [Header("Scripts")]
     public MenuRoom menuRoom;
 
@@ -32,14 +34,15 @@ public class Demographics : MonoBehaviour
         else
             Debug.LogError("No manager found. Check that the game manager is attached to a gameobject.");
 
-        if (_gameManager.DemographicsSet)
-            SkipDemographics();
-        else
-            DemographicsMenu();
+        //if (_gameManager.DemographicsSet)
+            //SkipDemographics();
+        //else
+            //DemographicsMenu();
     }
 
     public void DemographicsMenu()
     {
+        dollhouse.SetActive(false);
         UI_demographics.SetActive(true);
         UI_selectLang.SetActive(true);
     }
@@ -52,13 +55,12 @@ public class Demographics : MonoBehaviour
         menuRoom.EnableDollhouse();
     }
 
-    // Update is called once per frame
-    void Update()
+    #region Button Functions
+    public void _SETLANGUAGE(Language_SO langFile)
     {
-
+        _gameManager.languageSO = langFile;
     }
 
-    #region Button Functions
     public void BTN_SetLanguage(string value)
     {
         menuRoom.AddToForm(value);
