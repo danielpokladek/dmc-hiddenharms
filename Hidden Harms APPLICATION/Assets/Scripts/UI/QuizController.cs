@@ -38,7 +38,7 @@ public class QuizController : MonoBehaviour
         {
             // Quiz done.
             Debug.Log("Quiz complete!");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
         else
         {

@@ -42,9 +42,16 @@ public class Demographics : MonoBehaviour
 
     public void DemographicsMenu()
     {
-        dollhouse.SetActive(false);
-        UI_demographics.SetActive(true);
-        UI_selectLang.SetActive(true);
+        if (_gameManager.DemographicsSet)
+        {
+            SkipDemographics();
+        }
+        else
+        {
+            dollhouse.SetActive(false);
+            UI_demographics.SetActive(true);
+            UI_selectLang.SetActive(true);
+        }
     }
 
     private void SkipDemographics()

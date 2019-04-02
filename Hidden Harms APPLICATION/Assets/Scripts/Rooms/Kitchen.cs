@@ -23,7 +23,8 @@ public class Kitchen : BaseRoom
     {
         base.AftQuiz();
 
-        GameManager.manager.SetKitchen = true;
+        if (GameManager.manager != null)
+            GameManager.manager.SetKitchen = true;
     }
 
     public void BTN_KnowledgeBefore(string value)

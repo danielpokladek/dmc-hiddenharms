@@ -6,5 +6,8 @@ using Rooms;
 
 public class FrontRoom : BaseRoom
 {
-    
+    public override void Start()
+    {
+        base.Start();
+    }
 }
