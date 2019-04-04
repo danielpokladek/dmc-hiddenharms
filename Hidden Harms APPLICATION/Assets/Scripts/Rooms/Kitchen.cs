@@ -12,7 +12,7 @@ public class Kitchen : BaseRoom
 
         if (GameManager.manager != null)
         {
-            roomFacts = GameManager.manager.languageSO.GetFGMFacts;
+            roomFacts = GameManager.manager.languageSO.GetMSFacts;
             factsText.font = GameManager.manager.languageSO.GetFont;
         }
 

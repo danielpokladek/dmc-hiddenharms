@@ -6,17 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class Bedroom : BaseRoom
 {
-    public void BTN_KnowledgeBefore(string value)
+    public override void Start()
     {
-        AddToForm(value);
-        
-        showFacts = true;
-        factsText.enabled = true;
+        base.Start();
+
+        if (GameManager.manager != null)
+        {
+            roomFacts = GameManager.manager.languageSO.GetDAFacts;
+            factsText.font = GameManager.manager.languageSO.GetFont;
+        }
+
+        UpdateFacts();
     }
 
-    public void BTN_KnowledgeAfter(string value)
+    public override void AftQuiz()
     {
-        AddToForm(value);
-        SceneManager.LoadScene(0);
+        base.AftQuiz();
+
+        if (GameManager.manager != null)
+            GameManager.manager.SetBedroom = true;
     }
 }

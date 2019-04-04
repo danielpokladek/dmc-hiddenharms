@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Rooms
 {
@@ -13,6 +14,10 @@ namespace Rooms
         public GameObject AgeScreen;
 
         public GameObject DemographicsUI;
+        public GameObject FinalQuestUI;
+
+        public Demographics _demoScript;
+        public Camera _animCamera;
 
         public GameObject dollHouse;
         public GameObject UI;
@@ -23,27 +28,40 @@ namespace Rooms
         public override void Start()
         {
             _gameManager = GameManager.manager;
-            
+
+            DemographicsUI.SetActive(false);
+            FinalQuestUI.SetActive(false);
+
             NationalityScreen.SetActive(false);
             GenderScreen.SetActive(false);
             AgeScreen.SetActive(false);
 
-            //if (_gameManager.DemographicsSet == false)
-            //{
-            //    dollHouse.SetActive(false);
-            //    UI.SetActive(true);
-            //}
-            //else
-            //{
-            //    dollHouse.SetActive(true);
-            //    UI.SetActive(false);
-                
-            //}
+            if (_gameManager.DemographicsSet)
+            {
+                _demoScript.SkipDemographics();
+                _animCamera.gameObject.SetActive(false);
+            }
+
+            if (_gameManager.CheckStatus())
+            {
+                ShowFinalQuest();
+            }
         }
 
-        public void EnableDollhouse()
+        public void ShowInterrior()
         {
             dollHouse.SetActive(true);
+        }
+
+        private void ShowFinalQuest()
+        {
+            FinalQuestUI.SetActive(true);
+        }
+
+        public void BTN_FinalQuest(string value)
+        {
+            AddToForm(value);
+            SceneManager.LoadScene(5);
         }
     }
 }

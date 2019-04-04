@@ -728,6 +728,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BTN_QuestionAnswer
       objectReference: {fileID: 0}
+    - target: {fileID: 1438853091, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2036105496, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -736,6 +740,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BTN_QuestionAnswer
       objectReference: {fileID: 0}
+    - target: {fileID: 2036105496, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 563422874, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -743,6 +751,10 @@ PrefabInstance:
     - target: {fileID: 563422874, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BTN_QuestionAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 563422874, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1293521661330019182, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}

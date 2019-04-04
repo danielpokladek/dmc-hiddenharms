@@ -13,7 +13,7 @@ public class Demographics : MonoBehaviour
     public GameObject UI_selectAge;
     public GameObject UI_demographics;
 
-    public GameObject dollhouse;
+    public GameObject houseFrontWall;
 
     [Header("Scripts")]
     public MenuRoom menuRoom;
@@ -33,33 +33,22 @@ public class Demographics : MonoBehaviour
             _gameManager = GameManager.manager;
         else
             Debug.LogError("No manager found. Check that the game manager is attached to a gameobject.");
-
-        //if (_gameManager.DemographicsSet)
-            //SkipDemographics();
-        //else
-            //DemographicsMenu();
     }
 
     public void DemographicsMenu()
     {
-        if (_gameManager.DemographicsSet)
-        {
-            SkipDemographics();
-        }
-        else
-        {
-            dollhouse.SetActive(false);
-            UI_demographics.SetActive(true);
-            UI_selectLang.SetActive(true);
-        }
+        houseFrontWall.SetActive(false);
+        UI_demographics.SetActive(true);
+        UI_selectLang.SetActive(true);
     }
 
-    private void SkipDemographics()
+    public void SkipDemographics()
     {
         // The demographics have previously been recorded.
         // Skip the demographics questionnaire.
         UI_demographics.SetActive(false);
-        menuRoom.EnableDollhouse();
+        houseFrontWall.SetActive(false);
+        menuRoom.ShowInterrior();
     }
 
     #region Button Functions
@@ -106,7 +95,7 @@ public class Demographics : MonoBehaviour
         UI_demographics.SetActive(false);
         _gameManager.DemographicsSet = true;
 
-        menuRoom.EnableDollhouse();
+        menuRoom.ShowInterrior();
     }
     #endregion
 }

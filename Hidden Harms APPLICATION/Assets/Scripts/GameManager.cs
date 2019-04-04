@@ -25,6 +25,14 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    public bool CheckStatus()
+    {
+        if (bathroom && bedroom && kitchen && frontroom)
+            return true;
+
+        return false;
+    }
+
     public bool DemographicsSet { get; set; }
 
     public bool SetBathroom
