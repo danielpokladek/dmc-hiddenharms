@@ -12,10 +12,10 @@ public class Bathroom : BaseRoom
     {
         base.Start();
 
-        if (GameManager.manager != null)
+        if (_gameManager != null)
         {
-            roomFacts = GameManager.manager.languageSO.GetFGMFacts;
-            factsText.font = GameManager.manager.languageSO.GetFont;
+            roomFacts = _gameManager.languageSO.GetFGMFacts;
+            factsText.font = _gameManager.languageSO.GetFont;
         }
 
         UpdateFacts();
@@ -25,7 +25,7 @@ public class Bathroom : BaseRoom
     {
         base.AftQuiz();
 
-        if (GameManager.manager != null)
-            GameManager.manager.SetBathroom = true;
+        if (_gameManager != null)
+            _gameManager.SetBathroom = true;
     }
 }

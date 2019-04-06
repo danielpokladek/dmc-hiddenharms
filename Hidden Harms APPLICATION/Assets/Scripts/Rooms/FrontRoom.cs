@@ -10,10 +10,10 @@ public class FrontRoom : BaseRoom
     {
         base.Start();
 
-        if (GameManager.manager != null)
+        if (_gameManager != null)
         {
-            roomFacts = GameManager.manager.languageSO.GetONSFacts;
-            factsText.font = GameManager.manager.languageSO.GetFont;
+            roomFacts = _gameManager.languageSO.GetONSFacts;
+            factsText.font = _gameManager.languageSO.GetFont;
         }
 
         UpdateFacts();
@@ -23,7 +23,7 @@ public class FrontRoom : BaseRoom
     {
         base.AftQuiz();
 
-        if (GameManager.manager != null)
-            GameManager.manager.SetFrontroom = true;
+        if (_gameManager != null)
+            _gameManager.SetFrontroom = true;
     }
 }

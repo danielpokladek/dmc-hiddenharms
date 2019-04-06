@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Rooms;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+using Rooms;
+using TMPro;
 
 public class Bedroom : BaseRoom
 {
@@ -10,10 +12,16 @@ public class Bedroom : BaseRoom
     {
         base.Start();
 
-        if (GameManager.manager != null)
+        if (_gameManager != null)
         {
-            roomFacts = GameManager.manager.languageSO.GetDAFacts;
-            factsText.font = GameManager.manager.languageSO.GetFont;
+            if (_gameManager.languageSO.UsesRTL)
+            {
+                factsText.isRightToLeftText = true;
+                factsText.alignment = TMPro.TextAlignmentOptions.Right;
+            }
+            
+            roomFacts = _gameManager.languageSO.GetDAFacts;
+            factsText.font = _gameManager.languageSO.GetFont;
         }
 
         UpdateFacts();
@@ -23,7 +31,7 @@ public class Bedroom : BaseRoom
     {
         base.AftQuiz();
 
-        if (GameManager.manager != null)
-            GameManager.manager.SetBedroom = true;
+        if (_gameManager != null)
+            _gameManager.SetBedroom = true;
     }
 }

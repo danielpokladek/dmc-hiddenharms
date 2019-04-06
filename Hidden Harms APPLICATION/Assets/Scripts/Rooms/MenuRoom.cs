@@ -21,8 +21,6 @@ namespace Rooms
 
         public GameObject dollHouse;
         public GameObject UI;
-
-        private GameManager _gameManager;
         
         [HideInInspector]
         public override void Start()

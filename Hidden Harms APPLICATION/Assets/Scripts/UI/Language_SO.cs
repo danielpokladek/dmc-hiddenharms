@@ -15,7 +15,7 @@ public class Language_SO : ScriptableObject
      *  To-Do:
      *      - (Done) Implement the basic data access
      *      - (Done) Load facts for one of the rooms
-     *      - Load facts for rest of the rooms
+     *      - (Done) Load facts for rest of the rooms
      *      - Load quiz questions
      *      - Load quiz answers
      *      - Make sure quiz questions & answers are loaded in correct order
@@ -25,17 +25,29 @@ public class Language_SO : ScriptableObject
      *   
      */
 
-    [SerializeField] private string languageName;                               // Name of the langauge.
-    [SerializeField] private TMP_FontAsset languageFont;                        // Font used with this language.
+    [Header("Language Settings")]
+    [SerializeField] private string         languageName;                               // Name of the langauge.
+    [SerializeField] private TMP_FontAsset  languageFont;                        // Font used with this language.
+    [SerializeField] private bool           useRTL;
+
+    [Header("Room Facts")]
     [SerializeField] [TextArea] private string[] FGM_Facts  = new string[8];    // Facts about FGM.
     [SerializeField] [TextArea] private string[] DA_Facts   = new string[8];    // Facts about Domestic Abuse.
     [SerializeField] [TextArea] private string[] MS_Facts   = new string[8];    // Facts about Modern Slavery.
     [SerializeField] [TextArea] private string[] ONS_Facts  = new string[8];    // Facts about Online Safety.
 
+    [Header("Bedroom Questions")]
+    public string[] questions       = new string[5];
+    public string[] qOneAnswers     = new string[4];
+    public string[] qTwoAnswers     = new string[4];
+    public string[] qThreeAnswers   = new string[4];
+    public string[] qFourAnswers    = new string[4];
+    public string[] qFiveAnswers    = new string[4];
 
     #region Getters
     public string GetLangName { get { return languageName; } }
     public TMP_FontAsset GetFont { get { return languageFont; } }
+    public bool UsesRTL { get { return useRTL; } }
     public string[] GetFGMFacts { get { return FGM_Facts; } }
     public string[] GetDAFacts { get { return DA_Facts; } }
     public string[] GetMSFacts { get { return MS_Facts; } }

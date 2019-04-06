@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 using TMPro;
 
 namespace Rooms
@@ -10,6 +11,14 @@ namespace Rooms
     [RequireComponent(typeof(QuizController))]
     public class BaseRoom : MonoBehaviour
     {
+        // References to managers & controllers.
+        // They have to be public in order to be used by other scritps,
+        //  but they are assigned automatically by script so they are hidden.
+        [HideInInspector] public QuizController _quizController;
+        [HideInInspector] public GameManager _gameManager;
+        [HideInInspector] public WebForm _webManager;
+
+        // Properties
         [Header("Room Settings")]
         public bool sendData = false;
         public bool hasFacts = false;
@@ -20,22 +29,20 @@ namespace Rooms
         public float factLength = 3f;
         public Button nextFactButton;
 
-        private QuizController quiz;
-
         [HideInInspector] public bool showFacts  = false;
         private int factIterator    = 0;
         private float timer         = 0;
-        private WebForm webManager;
 
         public void BTN_NextFact()
         {
-            quiz = GetComponent<QuizController>();
+            _quizController = GetComponent<QuizController>();
 
             NextFact();
         }
 
         public virtual void Start() {
-            webManager = WebForm.WebManager;
+            _webManager = WebForm.WebManager;
+            _gameManager = GameManager.manager;
 
             //beforeFactsQuiz.SetActive(true);
             //afterFactsQuiz.SetActive(false);
@@ -84,7 +91,7 @@ namespace Rooms
         public virtual void AftQuiz()
         {
             factsUI.SetActive(false);
-            quiz.ShowQuiz();
+            _quizController.ShowQuiz();
 
             //factsUI.enabled = false;
             //showFacts       = false;
@@ -104,7 +111,7 @@ namespace Rooms
 
             // Disabled when testing the rooms. ENABLE AFTER DONE TESTING.
             if (sendData)
-                webManager.AddField(splitParams[0], splitParams[1]);
+                _webManager.AddField(splitParams[0], splitParams[1]);
             else
                 return;
         }
