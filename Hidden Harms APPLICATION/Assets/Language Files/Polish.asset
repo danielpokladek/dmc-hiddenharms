@@ -14,15 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   languageName: Polish
   languageFont: {fileID: 11400000, guid: 960d00f1199702a49a82f9a10ad42b70, type: 2}
+  useRTL: 0
   FGM_Facts:
-  - "Okaleczanie \u017Ce\u0144skich narz\u0105d\xF3w"
-  - PL TEST 2
-  - PL TEST 3
-  - PL TEST 4
-  - PL TEST 5
-  - PL TEST 6
-  - PL TEST 7
-  - "\u0107, \u0144, \xF3, \u015B, \u017A"
+  - "Okaleczanie \u017Ce\u0144skich narz\u0105d\xF3w p\u0142ciowych (z angielskiego
+    Female Genital Mutilation - FGM) to zabieg polegaj\u0105cy na celowym ci\u0119ciu
+    lub ranieniu narz\u0105d\xF3w p\u0142ciowych kobiet, chocia\u017C nie ma powodu
+    medycznego, aby to zrobi\u0107."
+  - "Okaleczanie \u017Ce\u0144skich narz\u0105d\xF3w p\u0142ciowych jest bardzo bolesne
+    i powa\u017Cnie szkodzi zar\xF3wno kr\xF3tkoterminowemu, jak i d\u0142ugotrwa\u0142emu
+    zdrowiu kobiet. Niekt\xF3re dziewcz\u0119ta umieraj\u0105 z powodu utraty krwi
+    lub infekcji FGM. Inne konsekwencje to: sta\u0142y b\xF3l, powtarzaj\u0105ce si\u0119
+    infekcje, krwawienie, ropnie, problemy z oddawaniem moczu lub nietrzymaniem moczu,
+    depresja, retrospekcje, problemy z samookaleczeniem i porodem."
+  - "FGM przeprowadza si\u0119 na dziewcz\u0119tach w ka\u017Cdym wieku, ale zwykle
+    wyst\u0119puje przed 15 rokiem \u017Cycia i mo\u017Ce wyst\u0119powa\u0107 cz\u0119\u015Bciej
+    w wieku od 5 do 10 lat."
+  - "FGM jest r\xF3wnie\u017C znany jako obrzezanie lub ci\u0119cie \u017Ce\u0144skie.
+    Terminy w innych j\u0119zykach obejmuj\u0105 mi\u0119dzy innymi sunna, gudniin,
+    halalay, tahur, megrez i khitan."
+  - "FGM jest nielegalny. Jest to forma wykorzystywania dzieci i nigdy nie mo\u017Ce
+    by\u0107 przeprowadzana ani tutaj, ani za granic\u0105. Zabronione jest zabranie
+    dziecka za granic\u0119 w celu przeprowadzenia procedury lub pomocy w przeprowadzeniu
+    FGM w jakikolwiek spos\xF3b. Ka\u017Cdy, kto zosta\u0142 uznany za winnego, ma
+    do 14 lat wi\u0119zienia i mo\u017Ce zosta\u0107 zmuszony do zap\u0142aty grzywny."
+  - "FGM jest praktykowany, poniewa\u017C jest postrzegany jako: uwolnienie rodziny
+    od pecha / z\u0142ych duch\xF3w, by\u0107 estetycznie po\u017C\u0105dany, zachowa\u0107
+    dziewictwo dziewczyny, by\u0107 tradycj\u0105 rodziny i / lub spo\u0142eczno\u015Bci,
+    uczyni\u0107 przysz\u0142e narodziny dzieci bezpieczniejszymi, utrzyma\u0107 honor
+    rodziny, by\u0107 rytua\u0142 przej\u015Bcia do kobieco\u015Bci, uczynienia dziewczyny
+    bardziej \u201Emo\u017Cliw\u0105 do ma\u0142\u017Ce\u0144stwa\u201D, bycia religijnym
+    obowi\u0105zkiem i oczyszczenia i oczyszczenia dziewczyny w\u015Br\xF3d innych
+    mit\xF3w."
+  - "Szacuje si\u0119, \u017Ce 200 milion\xF3w \u017Cyj\u0105cych dzi\u015B kobiet
+    przesz\u0142o FGM. Ponadto 3 miliony s\u0105 nara\u017Cone na ryzyko okaleczenia
+    \u017Ce\u0144skich narz\u0105d\xF3w p\u0142ciowych ka\u017Cdego roku"
+  - "FGM jest dokumentowany w 30 krajach - g\u0142\xF3wnie w Afryce, a nast\u0119pnie
+    w Bliskim Wschodzie i Azji. Egipt, Sudan, Somalia, Mali, Sierra Leone, Erytrea,
+    D\u017Cibuti, Gwinea maj\u0105 ponad 88% odsetek dziewcz\u0105t przechodz\u0105cych
+    FGM. Jednak wraz ze wzrostem migracji dziewcz\u0119ta s\u0105 nara\u017Cone na
+    ryzyko poza swoim krajem urodzenia w takich miejscach jak Europa, Australia i
+    Ameryka."
   DA_Facts:
   - 
   - 
@@ -45,6 +76,55 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  FGM_questions:
+  - "Jakie s\u0105 mo\u017Cliwe konsekwencje przeprowadzania FGM?"
+  - "Ile dzi\u015B \u017Cywych kobiet przesz\u0142o FGM?"
+  - "Kt\xF3re z tych stwierdze\u0144 s\u0105 mitem?"
+  - "Ryzyko FGM mo\u017Ce wyst\u0105pi\u0107"
+  - FGM to
+  FGM_qOneAnswers:
+  - "Powtarzaj\u0105ce si\u0119 infekcje"
+  - Problemy psychologiczne
+  - "\u015Amier\u0107"
+  - "Wszystkie powy\u017Csze"
+  FGM_qTwoAnswers:
+  - Ponad dwa miliony
+  - "Dwie\u015Bcie tysi\u0119cy"
+  - "Ponad dwie\u015Bcie milion\xF3w"
+  - "Dwa tysi\u0105ce"
+  FGM_qThreeAnswers:
+  - "FGM pozbawia rodzin\u0119 pecha / z\u0142ych duch\xF3w"
+  - "FGM sprawia, \u017Ce przysz\u0142o\u015B\u0107 porodu jest bezpieczna"
+  - "FGM jest obowi\u0105zkiem religijnym"
+  - "Wszystkie powy\u017Csze"
+  FGM_qFourAnswers:
+  - Tylko w Afryce
+  - "Gdziekolwiek na \u015Bwiecie"
+  - Tylko w Europie
+  - Tylko w Azji
+  FGM_qFiveAnswers:
+  - "Nielegalne - zar\xF3wno przeprowadzenie, jak i pomoc w procedurze"
+  - "Zn\u0119canie si\u0119 nad dzie\u0107mi"
+  - "Niesie kar\u0119 do 14 lat wi\u0119zienia"
+  - "Wszystkie powy\u017Csze"
+  DA_Questions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  MS_Questions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  ONS_Questions:
   - 
   - 
   - 

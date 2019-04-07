@@ -14,14 +14,16 @@ public class Bedroom : BaseRoom
 
         if (_gameManager != null)
         {
-            if (_gameManager.languageSO.UsesRTL)
-            {
-                factsText.isRightToLeftText = true;
-                factsText.alignment = TMPro.TextAlignmentOptions.Right;
-            }
-            
             roomFacts = _gameManager.languageSO.GetDAFacts;
             factsText.font = _gameManager.languageSO.GetFont;
+
+            if (_gameManager.languageSO.UsesRTL)
+            {
+                Debug.Log("Uses RTL");
+
+                factsText.isRightToLeftText = true;
+                factsText.alignment = TextAlignmentOptions.Right;
+            }
         }
 
         UpdateFacts();

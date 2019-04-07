@@ -36,13 +36,22 @@ public class Language_SO : ScriptableObject
     [SerializeField] [TextArea] private string[] MS_Facts   = new string[8];    // Facts about Modern Slavery.
     [SerializeField] [TextArea] private string[] ONS_Facts  = new string[8];    // Facts about Online Safety.
 
-    [Header("Bedroom Questions")]
-    public string[] questions       = new string[5];
-    public string[] qOneAnswers     = new string[4];
-    public string[] qTwoAnswers     = new string[4];
-    public string[] qThreeAnswers   = new string[4];
-    public string[] qFourAnswers    = new string[4];
-    public string[] qFiveAnswers    = new string[4];
+    [Header("FGM Questions & Answers")]
+    public string[] FGM_questions       = new string[5];
+    public string[] FGM_qOneAnswers = new string[4];
+    public string[] FGM_qTwoAnswers = new string[4];
+    public string[] FGM_qThreeAnswers = new string[4];
+    public string[] FGM_qFourAnswers = new string[4];
+    public string[] FGM_qFiveAnswers = new string[4];
+
+    [Header("DA Questions & Answers")]
+    public string[] DA_Questions = new string[5];
+
+    [Header("MS Questions & Answers")]
+    public string[] MS_Questions = new string[5];
+
+    [Header("ONS Questions & Answers")]
+    public string[] ONS_Questions = new string[5];
 
     #region Getters
     public string GetLangName { get { return languageName; } }

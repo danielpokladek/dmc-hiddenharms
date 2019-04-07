@@ -5,14 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class QuizController : MonoBehaviour
 {
-    private GameManager _gameManager;
-    [SerializeField] private QuizQuestion[] _quizQuestions = new QuizQuestion[5];
+    public QuizQuestion[] _quizQuestions = new QuizQuestion[5];
 
     public GameObject wrongAnswer;
     public GameObject[] quizQuestionsUI;
-    private int questionIterator = 0;
 
-    public string[] answersTemp = new string[4];
+    protected GameManager _gameManager;
+    protected int questionIterator = 0;
 
     private void Start()
     {
@@ -26,39 +25,20 @@ public class QuizController : MonoBehaviour
         }
     }
 
-    public void InitializeQuiz()
+    public virtual void ShowQuiz()
     {
-
-    }
-
-    public void ShowQuiz()
-    {
-        _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.questions[questionIterator]);
-        _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.qOneAnswers);
-        
+        // Override this function, and add the first question header and answers before using base.
+        // ---
 
         quizQuestionsUI[questionIterator].gameObject.SetActive(true);
     }
 
-    private void NextQuestion()
+    public virtual void NextQuestion()
     {
         quizQuestionsUI[questionIterator].gameObject.SetActive(false);
 
-
-        if (questionIterator +1 == quizQuestionsUI.Length)
-        {
-            // Quiz done.
-            Debug.Log("Quiz complete!");
-            SceneManager.LoadScene(0);
-        }
-        else
-        {
-            questionIterator++;
-
-            _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.questions[questionIterator]);
-
-            quizQuestionsUI[questionIterator].gameObject.SetActive(true);
-        }
+        // ---
+        // Override this function, and add the answers for the room.
     }
 
     public void BTN_CloseWA()

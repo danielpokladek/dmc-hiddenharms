@@ -44,8 +44,14 @@ namespace Rooms
             _webManager = WebForm.WebManager;
             _gameManager = GameManager.manager;
 
-            //beforeFactsQuiz.SetActive(true);
-            //afterFactsQuiz.SetActive(false);
+            if (_gameManager.languageSO.UsesRTL)
+            {
+                Debug.Log("Uses RTL");
+
+                factsText.isRightToLeftText = true;
+                factsText.alignment = TextAlignmentOptions.Right;
+            }
+
             nextFactButton.interactable = false;
             factsText.text = roomFacts[factIterator];
             factsText.enabled = true;
