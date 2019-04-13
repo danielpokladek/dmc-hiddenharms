@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DAQuiz : QuizController
+public class MSQuiz : QuizController
 {
     public override void ShowQuiz()
     {
-        _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.DA_Questions[questionIterator]);
-        _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.DA_qOneAsnwers);
+        _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.MS_Questions[questionIterator]);
+        _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.MS_qOneAnswers);
 
         base.ShowQuiz();
     }
@@ -25,24 +25,24 @@ public class DAQuiz : QuizController
         {
             questionIterator++;
 
-            _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.DA_Questions[questionIterator]);
+            _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.MS_Questions[questionIterator]);
 
             switch (questionIterator)
             {
                 case 1:
-                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.DA_qTwoAnswers);
+                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.MS_qTwoAnswers);
                     break;
 
                 case 2:
-                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.DA_qThreeAnswers);
+                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.MS_qThreeAnswers);
                     break;
 
                 case 3:
-                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.DA_qFourAnswers);
+                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.MS_qFourAnswers);
                     break;
 
                 case 4:
-                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.DA_qFiveAnswers);
+                    _quizQuestions[questionIterator].SetAnswers(_gameManager.languageSO.MS_qFiveAnswers);
                     break;
             }
 

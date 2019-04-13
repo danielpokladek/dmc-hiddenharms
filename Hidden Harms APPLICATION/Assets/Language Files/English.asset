@@ -73,7 +73,8 @@ MonoBehaviour:
     reputation) are all perpetrated by family members and are therefore forms of domestic
     abuse"
   MS_Facts:
-  - '- REMEMBER TO REPLACE THIS FACT -'
+  - Modern slavery is the recruiting, moving, holding and receiving of people using
+    force, deception, coercion or abuse for the purpose of exploiting them.
   - A person is trafficked if they are moved into, out of or within the UK (or another
     country) under threat or fear of harm. A person may be trafficked for various
     reasons including sexual exploitation, forced labour, domestic servitude and organ
@@ -189,14 +190,65 @@ MonoBehaviour:
   - Dependency on alcohol or drugs.
   - All of the above.
   MS_Questions:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - What are the reasons a person may be trafficked?
+  - What makes a person at risk of Modern Slavery?
+  - 'Methods used to control victims of modern slavery can be:'
+  - What statement is true?
+  - What are the signs of modern slavery?
+  MS_qOneAnswers:
+  - Sexual exploitation.
+  - Organ harvesting.
+  - Domestic servitude.
+  - All of the above.
+  MS_qTwoAnswers:
+  - Language barriers.
+  - Poverty.
+  - Drug addiction.
+  - All of the above.
+  MS_qThreeAnswers:
+  - Passport withheld.
+  - Isolation.
+  - Physical abuse.
+  - All of the above
+  MS_qFourAnswers:
+  - Only men are victims of Modern Slavery
+  - Children are not victims of modern slavery
+  - Anyone can be a victim of modern slavery
+  - Only minority groups can be victims of modern slavery
+  MS_qFiveAnswers:
+  - Overcrowded accommodation
+  - Unexplained injuries
+  - Chaperoned to and from workplace
+  - All of the above
   ONS_Questions:
+  - "What is \u2018Personal Information\u2019?"
+  - If someone is being abusive to you online, what should you do?
+  - To protect children from unwanted inappropriate content
+  - How can you stop people you do not know looking at your content on social networking
+    apps?
+  - "What does the word \u2018grooming\u2019 mean?"
+  ONS_qOneAnswers:
   - 
   - 
   - 
   - 
+  ONS_qTwoAnswers:
   - 
+  - 
+  - 
+  - 
+  ONS_qThreeAnswers:
+  - 
+  - 
+  - 
+  - 
+  ONS_qFourAnswers:
+  - You cannot stop this.
+  - Turn on the privacy setting
+  - Tell them
+  - It is safe to let people you do not know look at your content
+  ONS_qFiveAnswers:
+  - Making appropriate friends.
+  - Playing online games.
+  - Befriending someone online using a fake profile for sexual purposes.
+  - Using social networking apps.

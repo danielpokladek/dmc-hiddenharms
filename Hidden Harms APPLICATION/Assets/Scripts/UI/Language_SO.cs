@@ -36,7 +36,7 @@ public class Language_SO : ScriptableObject
     [SerializeField] [TextArea] private string[] MS_Facts   = new string[8];    // Facts about Modern Slavery.
     [SerializeField] [TextArea] private string[] ONS_Facts  = new string[8];    // Facts about Online Safety.
 
-    [Header("FGM Questions & Answers")]
+    [Header("FGM Q&A")]
     public string[] FGM_questions       = new string[5];
     public string[] FGM_qOneAnswers     = new string[4];
     public string[] FGM_qTwoAnswers     = new string[4];
@@ -44,7 +44,7 @@ public class Language_SO : ScriptableObject
     public string[] FGM_qFourAnswers    = new string[4];
     public string[] FGM_qFiveAnswers    = new string[4];
 
-    [Header("DA Questions & Answers")]
+    [Header("Domestic Abuse Q&A")]
     public string[] DA_Questions        = new string[5];
     public string[] DA_qOneAsnwers      = new string[4];
     public string[] DA_qTwoAnswers      = new string[4];
@@ -52,11 +52,21 @@ public class Language_SO : ScriptableObject
     public string[] DA_qFourAnswers     = new string[4];
     public string[] DA_qFiveAnswers     = new string[4];
 
-    [Header("MS Questions & Answers")]
-    public string[] MS_Questions = new string[5];
+    [Header("Modern Slavery Q&A")]
+    public string[] MS_Questions        = new string[5];
+    public string[] MS_qOneAnswers      = new string[4];
+    public string[] MS_qTwoAnswers      = new string[4];
+    public string[] MS_qThreeAnswers    = new string[4];
+    public string[] MS_qFourAnswers     = new string[4];
+    public string[] MS_qFiveAnswers     = new string[4];
 
-    [Header("ONS Questions & Answers")]
-    public string[] ONS_Questions = new string[5];
+    [Header("Online Safety Q&A")]
+    public string[] ONS_Questions       = new string[5];
+    public string[] ONS_qOneAnswers     = new string[4];
+    public string[] ONS_qTwoAnswers     = new string[4];
+    public string[] ONS_qThreeAnswers   = new string[4];
+    public string[] ONS_qFourAnswers    = new string[4];
+    public string[] ONS_qFiveAnswers    = new string[4];
 
     #region Getters
     public string GetLangName { get { return languageName; } }
