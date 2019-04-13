@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class QuizController : MonoBehaviour
 {
-    public QuizQuestion[] _quizQuestions = new QuizQuestion[5];
-
     public GameObject wrongAnswer;
-    public GameObject[] quizQuestionsUI;
+    public GameObject[] quizQuestionsUI     = new GameObject[5];
+    public QuizQuestion[] _quizQuestions    = new QuizQuestion[5];
 
     protected GameManager _gameManager;
     protected int questionIterator = 0;

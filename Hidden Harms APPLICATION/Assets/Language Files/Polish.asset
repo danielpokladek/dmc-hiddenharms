@@ -113,7 +113,32 @@ MonoBehaviour:
   - "Niesie kar\u0119 do 14 lat wi\u0119zienia"
   - "Wszystkie powy\u017Csze"
   DA_Questions:
+  - Which statement is not true?
+  - Which of these are considered domestic abuse?
   - 
+  - 
+  - 
+  DA_qOneAsnwers:
+  - 
+  - 
+  - 
+  - 
+  DA_qTwoAnswers:
+  - 
+  - 
+  - 
+  - 
+  DA_qThreeAnswers:
+  - 
+  - 
+  - 
+  - 
+  DA_qFourAnswers:
+  - 
+  - 
+  - 
+  - 
+  DA_qFiveAnswers:
   - 
   - 
   - 

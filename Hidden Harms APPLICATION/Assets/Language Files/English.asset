@@ -156,3 +156,47 @@ MonoBehaviour:
   - Child abuse
   - Carries a prison sentence of up to 14 years
   - All of the above
+  DA_Questions:
+  - Which statement is not true?
+  - Which of these are considered domestic abuse?
+  - 'Digital abuse includes:'
+  - 'Domestic abuse can:'
+  - 'Domestic abuse can have long term effects on health and well-being, leading to
+    issues including:'
+  DA_qOneAsnwers:
+  - Women are more likely to experience domestic abuse.
+  - Men are more likely to be perpetrators of domestic abuse.
+  - Men are more likely to experience domestic abuse.
+  - Women from minority groups will find it harder to reach support.
+  DA_qTwoAnswers:
+  - Honour crimes.
+  - Female genital mutilation.
+  - Forced marriage.
+  - All of the above.
+  DA_qThreeAnswers:
+  - Abuse carried out on social media sites.
+  - GPS used to track a victim.
+  - Photos and videos posted without consent.
+  - All of the above.
+  DA_qFourAnswers:
+  - Be one incidence.
+  - Be a pattern of incidences.
+  - Be perpetrated by a partner or ex-partner
+  - All of the above.
+  DA_qFiveAnswers:
+  - The onset of physical problems such as skin disorders.
+  - 'The onset of mental health disorders such as depression. '
+  - Dependency on alcohol or drugs.
+  - All of the above.
+  MS_Questions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  ONS_Questions:
+  - 
+  - 
+  - 
+  - 
+  - 

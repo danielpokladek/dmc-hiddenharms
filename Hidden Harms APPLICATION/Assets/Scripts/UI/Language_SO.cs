@@ -38,14 +38,19 @@ public class Language_SO : ScriptableObject
 
     [Header("FGM Questions & Answers")]
     public string[] FGM_questions       = new string[5];
-    public string[] FGM_qOneAnswers = new string[4];
-    public string[] FGM_qTwoAnswers = new string[4];
-    public string[] FGM_qThreeAnswers = new string[4];
-    public string[] FGM_qFourAnswers = new string[4];
-    public string[] FGM_qFiveAnswers = new string[4];
+    public string[] FGM_qOneAnswers     = new string[4];
+    public string[] FGM_qTwoAnswers     = new string[4];
+    public string[] FGM_qThreeAnswers   = new string[4];
+    public string[] FGM_qFourAnswers    = new string[4];
+    public string[] FGM_qFiveAnswers    = new string[4];
 
     [Header("DA Questions & Answers")]
-    public string[] DA_Questions = new string[5];
+    public string[] DA_Questions        = new string[5];
+    public string[] DA_qOneAsnwers      = new string[4];
+    public string[] DA_qTwoAnswers      = new string[4];
+    public string[] DA_qThreeAnswers    = new string[4];
+    public string[] DA_qFourAnswers     = new string[4];
+    public string[] DA_qFiveAnswers     = new string[4];
 
     [Header("MS Questions & Answers")]
     public string[] MS_Questions = new string[5];
