@@ -113,6 +113,8 @@ namespace Rooms
         ///                         The field name should always come first, and value after; for example "entry.000,value".</param>
         public void AddToForm(string field)
         {
+            _webManager = WebForm.WebManager;
+
             string[] splitParams = field.Split(',');
 
             // Disabled when testing the rooms. ENABLE AFTER DONE TESTING.

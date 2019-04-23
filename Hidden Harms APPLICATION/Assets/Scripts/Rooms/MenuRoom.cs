@@ -59,6 +59,7 @@ namespace Rooms
         public void BTN_FinalQuest(string value)
         {
             AddToForm(value);
+            WebForm.WebManager._SendForm();
             SceneManager.LoadScene(5);
         }
     }

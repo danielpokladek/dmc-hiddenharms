@@ -15,9 +15,9 @@ public class WebForm : MonoBehaviour
         if (WebManager == null)
             WebManager = this;
         else if (WebManager != this)
-            Destroy(WebManager);
+            Destroy(gameObject);
 
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(gameObject);
     }
 
     // Use this for initialization

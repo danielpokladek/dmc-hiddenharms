@@ -507,7 +507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461151739}
   m_LocalRotation: {x: -0.0000000745058, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.776, y: 0.933, z: -3.1}
+  m_LocalPosition: {x: 1.776, y: 0.98, z: -3.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -575,12 +575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baceb380f4fb102409f8ccd67ed4cb40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quizQuestions:
-  - {fileID: 1655080192}
-  - {fileID: 254797109}
-  - {fileID: 1266448636}
-  - {fileID: 299284793}
-  - {fileID: 1396725908}
   wrongAnswer: {fileID: 673130750}
   quizQuestionsUI:
   - {fileID: 1655080191}
@@ -588,6 +582,12 @@ MonoBehaviour:
   - {fileID: 1266448632}
   - {fileID: 299284789}
   - {fileID: 1396725904}
+  _quizQuestions:
+  - {fileID: 1655080192}
+  - {fileID: 254797109}
+  - {fileID: 1266448636}
+  - {fileID: 299284793}
+  - {fileID: 1396725908}
 --- !u!114 &515000791 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2833991451834299066, guid: 7e817feba02a2f944844f3fcd9440d49,
@@ -744,6 +744,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1501995194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1501995196}
+  - component: {fileID: 1501995195}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1501995195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501995194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9439fb148fd75b044b723e78217de0d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  languageSO: {fileID: 11400000, guid: 5a271e29f81033b4c8a6c2aad1c58991, type: 2}
+  bathroom: 0
+  bedroom: 0
+  kitchen: 0
+  frontroom: 0
+--- !u!4 &1501995196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501995194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 770.8433, y: 599.0517, z: 345.99606}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1519579992 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2814214593309974111, guid: 7e817feba02a2f944844f3fcd9440d49,
@@ -994,6 +1042,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1293521659688152687, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_Name
@@ -1059,11 +1117,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 369462912}
-    - target: {fileID: 6318030377688844082, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8538655619921055536, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_IsActive
@@ -1157,12 +1210,12 @@ PrefabInstance:
     - target: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659353461443, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659688152674, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
