@@ -483,16 +483,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1293521659688152687, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_Name
@@ -787,6 +777,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 1) Passport witheld
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966481779111684166, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659688152674, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -1235,6 +1235,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269566037992047862, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 'Modern Slavery is a crime in the UK and can carry a prison sentence
+        or monetary fine. '
       objectReference: {fileID: 0}
     - target: {fileID: 1293521660616227103, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
