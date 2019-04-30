@@ -25,7 +25,7 @@ public class ONSQuiz : QuizController
         {
             questionIterator++;
 
-            _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.DA_Questions[questionIterator]);
+            _quizQuestions[questionIterator].SetHeader(_gameManager.languageSO.ONS_Questions[questionIterator]);
 
             switch (questionIterator)
             {
