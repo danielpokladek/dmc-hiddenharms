@@ -44,7 +44,7 @@ public class QuizController : MonoBehaviour
     {
         quizQuestionsUI[questionIterator].SetActive(true);
         wrongAnswer.SetActive(false);
-        NextQuestion();
+        //NextQuestion();
     }
 
     public void BTN_QuestionAnswer(bool isCorrect)

@@ -325,13 +325,12 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "If you are worried about any concerns raised by this game, please contact
-    the following for support and further information:\r\n\r\nNational Domestic Violence
-    helpline :\n0808 2000247\r\n\r\nForced Marriage Unit :\n0207 0080151\r\n\r\nFGM
-    information :\nwww.healthysuffolk.org.uk/advice-services/adults/fgm-hub\r\n\r\nModern
-    Slavery helpline :\n0800 121700\n\nOnline concerns:\nwww.ceop.police.uk\r\n\r\nFor
-    urgent support or if a crime has been committed, please contact the Police on
-    999."
+  m_text: "For urgent support or if a crime has been committed, please contact the
+    Police on 999.\n\nIf you are worried about any concerns raised by this game, please
+    contact the following for support and further information\n\nMichelle at Suffolk
+    Refugee Support:\n01473 400785\n\r\nNational Domestic Violence helpline:\n0808
+    2000247\r\n\r\nForced Marriage Unit:\n0207 0080151\r\n\r\nFGM information:\nwww.healthysuffolk.org.uk/advice-services/adults/fgm-hub\r\n\r\nModern
+    Slavery helpline:\n0800 121700\n\nOnline concerns:\nwww.ceop.police.uk\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -377,7 +376,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 375
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -397,15 +396,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 299.31738, y: 110.12622, z: 312.0243, w: 115.77371}
+  m_margin: {x: 1.3551025, y: 0.009765625, z: -0.18823242, w: 0.47528076}
   m_textInfo:
     textComponent: {fileID: 1444601527}
-    characterCount: 463
+    characterCount: 507
     spriteCount: 0
-    spaceCount: 67
-    wordCount: 67
+    spaceCount: 71
+    wordCount: 74
     linkCount: 0
-    lineCount: 21
+    lineCount: 22
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -470,7 +469,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -200, y: -100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520903760
 MonoBehaviour:
