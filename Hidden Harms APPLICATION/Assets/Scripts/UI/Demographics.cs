@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 using Rooms;
 
@@ -14,6 +15,8 @@ public class Demographics : MonoBehaviour
     public GameObject UI_demographics;
 
     public GameObject houseFrontWall;
+
+    public InputField natInput;
 
     [Header("Scripts")]
     public MenuRoom menuRoom;
@@ -64,7 +67,7 @@ public class Demographics : MonoBehaviour
         UI_selectLang.SetActive(false);
         UI_selectNat.SetActive(true);
 
-        Debug.Log("Set Language");
+        Debug.Log("Language set to: " + value);
     }
 
     public void BTN_SetNationality(string value)
@@ -77,6 +80,24 @@ public class Demographics : MonoBehaviour
         Debug.Log("Set Nationality");
     }
 
+    public void BTN_SetNat()
+    {
+        if (natInput.text == "")
+        {
+            Debug.LogError("Empty Nationality Field, insert a country.");
+            return;
+        }
+
+        string tempString = "entry.679332033," + natInput.text;
+
+        menuRoom.AddToForm(tempString);
+
+        UI_selectNat.SetActive(false);
+        UI_selectGend.SetActive(true);
+
+        Debug.Log("Nationality set to: " + tempString);
+    }
+
     public void BTN_SetGender(string value)
     {
         menuRoom.AddToForm(value);
@@ -84,7 +105,7 @@ public class Demographics : MonoBehaviour
         UI_selectGend.SetActive(false);
         UI_selectAge.SetActive(true);
 
-        Debug.Log("Set Gender");
+        Debug.Log("Gender set to :" + value);
     }
 
     public void BTN_SetAge(string value)
@@ -96,6 +117,8 @@ public class Demographics : MonoBehaviour
         _gameManager.DemographicsSet = true;
 
         menuRoom.ShowInterrior();
+
+        Debug.Log("Age set to: " + value);
     }
     #endregion
 }
