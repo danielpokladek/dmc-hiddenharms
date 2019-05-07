@@ -5251,6 +5251,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7178746629167857153, guid: fb8673ffd7c160c4dabfd26ff17aebf5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.176
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb8673ffd7c160c4dabfd26ff17aebf5, type: 3}
 --- !u!4 &1010454884 stripped
@@ -10466,6 +10471,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1600503729988796971, guid: 443843111ca84bf46b8b117a0740d433,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8010639573801148805, guid: 443843111ca84bf46b8b117a0740d433,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10996,11 +11006,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 14387107}
-    - target: {fileID: 1600503729988796971, guid: 443843111ca84bf46b8b117a0740d433,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7277057941692250415, guid: 443843111ca84bf46b8b117a0740d433,
         type: 3}
       propertyPath: m_SizeDelta.y

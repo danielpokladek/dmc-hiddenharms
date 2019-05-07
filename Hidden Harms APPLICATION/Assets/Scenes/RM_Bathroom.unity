@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 461151740}
   - component: {fileID: 461151743}
   - component: {fileID: 461151744}
+  - component: {fileID: 461151745}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -576,6 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wrongAnswer: {fileID: 673130750}
+  policeSiren: {fileID: 8300000, guid: 8270a9fee915b974c97909cff5a4b745, type: 3}
   quizQuestionsUI:
   - {fileID: 1655080191}
   - {fileID: 254797105}
@@ -588,6 +590,102 @@ MonoBehaviour:
   - {fileID: 1266448636}
   - {fileID: 299284793}
   - {fileID: 1396725908}
+--- !u!82 &461151745
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461151739}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &515000791 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2833991451834299066, guid: 7e817feba02a2f944844f3fcd9440d49,
@@ -744,54 +842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1501995194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1501995196}
-  - component: {fileID: 1501995195}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1501995195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501995194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9439fb148fd75b044b723e78217de0d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  languageSO: {fileID: 11400000, guid: 5a271e29f81033b4c8a6c2aad1c58991, type: 2}
-  bathroom: 0
-  bedroom: 0
-  kitchen: 0
-  frontroom: 0
---- !u!4 &1501995196
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501995194}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 770.8433, y: 599.0517, z: 345.99606}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1519579992 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2814214593309974111, guid: 7e817feba02a2f944844f3fcd9440d49,
@@ -1047,11 +1097,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 3269763968896947743, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2837688073262704192, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -1077,11 +1122,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 63487680}
-    - target: {fileID: 5507401223856207258, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1601490558036026923, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -1107,11 +1147,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 369462912}
-    - target: {fileID: 8538655619921055536, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8491509979227882503, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -1137,11 +1172,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 2009267930}
-    - target: {fileID: 5117202461053390031, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5949408110777674697, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -1167,11 +1197,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 1162711002}
-    - target: {fileID: 5599863851737895075, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5145935647802971167, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -1558,6 +1583,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117202461053390031, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5507401223856207258, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8538655619921055536, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3269763968896947743, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599863851737895075, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}

@@ -7,6 +7,24 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BOXOPHOBIC" t="Include">
+          <e p="Skybox Cubemap Extended" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Skybox Cubemap Extended.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Dropdown Asset" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="OpenSans-Familiy" t="Include">
+              <e p="OpenSansLic.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AutoCompleteScrollRect.cs" t="Include" />
+            <e p="OptionButton.cs" t="Include" />
+          </e>
+        </e>
         <e p="RTLTMPro" t="Include">
           <e p="Editor" t="Include">
             <e p="ContextMenu.cs" t="Include" />
@@ -47,6 +65,7 @@
           <e p="TashkeelLocation.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Certificate.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Old Scripts" t="Include">
             <e p="ButtonScript.cs" t="Include" />
@@ -66,7 +85,14 @@
             <e p="Demographics.cs" t="Include" />
             <e p="FontController.cs" t="Include" />
             <e p="Language_SO.cs" t="Include" />
-            <e p="QuizController.cs" t="Include" />
+            <e p="Quiz" t="Include">
+              <e p="DAQuiz.cs" t="Include" />
+              <e p="FGMQuiz.cs" t="Include" />
+              <e p="MSQuiz.cs" t="Include" />
+              <e p="ONSQuiz.cs" t="Include" />
+              <e p="QuizController.cs" t="Include" />
+              <e p="QuizQuestion.cs" t="Include" />
+            </e>
           </e>
           <e p="WebForm.cs" t="Include" />
         </e>

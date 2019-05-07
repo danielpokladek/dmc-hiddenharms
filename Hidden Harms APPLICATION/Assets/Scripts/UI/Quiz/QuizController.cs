@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class QuizController : MonoBehaviour
 {
     public GameObject wrongAnswer;
+    public AudioClip policeSiren;
     public GameObject[] quizQuestionsUI     = new GameObject[5];
     public QuizQuestion[] _quizQuestions    = new QuizQuestion[5];
 
@@ -64,7 +65,9 @@ public class QuizController : MonoBehaviour
             Debug.Log("Incorrect answer!");
             quizQuestionsUI[questionIterator].SetActive(false);
             wrongAnswer.SetActive(true);
-
+            Camera.main.GetComponent<AudioSource>().clip = policeSiren;
+            Camera.main.GetComponent<AudioSource>().Play(0);
+            
             //NextQuestion();
         }
     }
