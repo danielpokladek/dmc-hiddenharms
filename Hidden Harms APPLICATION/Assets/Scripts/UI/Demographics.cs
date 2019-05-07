@@ -40,6 +40,8 @@ public class Demographics : MonoBehaviour
 
     public void DemographicsMenu()
     {
+        _gameManager.SetScreenOrientation(ScreenOrientation.Portrait);
+
         houseFrontWall.SetActive(false);
         UI_demographics.SetActive(true);
         UI_selectLang.SetActive(true);
@@ -116,6 +118,7 @@ public class Demographics : MonoBehaviour
         UI_demographics.SetActive(false);
         _gameManager.DemographicsSet = true;
 
+        _gameManager.SetScreenOrientation(ScreenOrientation.LandscapeLeft);
         menuRoom.ShowInterrior();
 
         Debug.Log("Age set to: " + value);

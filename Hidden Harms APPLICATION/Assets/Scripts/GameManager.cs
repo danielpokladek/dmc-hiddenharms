@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    public void SetScreenOrientation(ScreenOrientation orientation)
+    {
+        Screen.orientation = orientation;
+    }
+
     public bool CheckStatus()
     {
         if (bathroom && bedroom && kitchen && frontroom)
