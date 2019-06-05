@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HouseFront.unity
+    path: Assets/Scenes/RM_Outside.unity
     guid: 95fff912945cd55468437de64c30cdc1
   - enabled: 1
     path: Assets/Scenes/RM_FGM.unity
@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/RM_ONS.unity
     guid: 58681d9bb9998e944b38f2eec9b480b2
   - enabled: 1
-    path: Assets/Scenes/Certificate.unity
+    path: Assets/Scenes/RM_Certificate.unity
     guid: 661cc8656477c534a90d3e3d8299dff8
   - enabled: 1
-    path: Assets/Scenes/Debrief.unity
+    path: Assets/Scenes/RM_Contact.unity
     guid: 8ce67f7c84e49554baf279d6a6fa40c3
   - enabled: 1
     path: Assets/Scenes/RM_FM.unity
