@@ -5217,6 +5217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2134768520}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
+      propertyPath: m_Name
+      value: house_front_top
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5260,10 +5264,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
-      propertyPath: m_Name
-      value: house_front_top
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11285,6 +11285,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 318058890}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
+      propertyPath: m_Name
+      value: house_front_top
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11328,10 +11332,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
-      propertyPath: m_Name
-      value: house_front_top
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12701,7 +12701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -29.900024, y: 334.8}
+  m_AnchoredPosition: {x: -29.899902, y: 334.80005}
   m_SizeDelta: {x: -461.9, y: -2159.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297708541
@@ -12932,6 +12932,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2134768520}
     m_Modifications:
+    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
+      propertyPath: m_Name
+      value: hous_front_left
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00011444092
@@ -12975,10 +12979,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
-      propertyPath: m_Name
-      value: hous_front_left
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17682,6 +17682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 318058890}
     m_Modifications:
+    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
+      propertyPath: m_Name
+      value: hous_front_left
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00011444092
@@ -17725,10 +17729,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
-      propertyPath: m_Name
-      value: hous_front_left
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19562,7 +19562,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "\uFECB\uFEAE\u0628\u0649"
+  m_text: "\u0639\u0631\u0628\u064A"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: 21623836076631360, guid: 3fbde2e562e333d488bc46986fc6f4f1,
@@ -19646,7 +19646,7 @@ MonoBehaviour:
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 1
   m_inputSource: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -19659,10 +19659,10 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
-  farsi: 1
-  originalText: "\u0639\u0631\u0628\u0649"
+  farsi: 0
+  originalText: "\u0639\u0631\u0628\u064A"
   fixTags: 1
-  forceFix: 0
+  forceFix: 1
 --- !u!222 &2042174372
 CanvasRenderer:
   m_ObjectHideFlags: 0
