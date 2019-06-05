@@ -22,7 +22,7 @@ namespace Rooms
         [Header("Room Settings")]
         public bool sendData = false;
         public bool hasFacts = false;
-        public TMP_Text factsText;
+        public RTLTMPro.RTLTextMeshPro factsText;
         public GameObject factsUI;
         public string[] roomFacts;
         public float factDelay = .5f;

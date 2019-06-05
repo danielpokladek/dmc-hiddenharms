@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Arabic
   m_EditorClassIdentifier: 
   languageName: Arabic
-  languageFont: {fileID: 11400000, guid: 2963ddd6c79a08844b49c59687c13a9f, type: 2}
+  languageFont: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   useRTL: 1
   FGM_Facts:
   - "\u064A\u0645\u0643\u0646 \u062A\u0639\u0631\u064A\u0641 \u0627\u0644\u0627\u0639\u062A\u062F\u0627\u0621

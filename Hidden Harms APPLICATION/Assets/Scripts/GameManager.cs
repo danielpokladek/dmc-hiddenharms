@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     public Language_SO languageSO;
 
-    [SerializeField] private bool bathroom, bedroom, kitchen, frontroom;
+    [SerializeField] private bool bathroom, bedroom, kitchen, frontroom, kitchen_2;
 
     public GameManager()
     {
@@ -53,6 +53,11 @@ public class GameManager : MonoBehaviour
     public bool SetKitchen
     {
         set { kitchen = value; }
+    }
+
+    public bool SetKitchen_2
+    {
+        set { kitchen_2 = value; }
     }
 
     public bool SetFrontroom

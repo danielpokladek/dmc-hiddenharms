@@ -126,6 +126,28 @@ MonoBehaviour:
     sexual purposes. This is known as grooming. Do not meet up with anyone you have
     befriended online. However if you do, meet in a public place, do not go alone
     and always tell a friend where you will be. '
+  FM_Facts:
+  - You have the right to choose who, when and if you marry. Forced marriage is when
+    pressure is used, such as physical or sexual violence. It can also be emotional
+    or psychological pressure, such as being made to feel you are shaming your family
+    if you refuse.
+  - Forced marriage is ILLEGAL in the UK. This includes taking someone overseas to
+    force them to marry or marrying someone who lacks the mental capacity to consent.
+    It can carry a prison sentence of up to 7 years.
+  - A Forced Marriage Protection Order (FMPO) can be obtained by the court. This is
+    to help protect someone at risk of forced marriage. For example, the court may
+    order a person to give their passport in to prevent them taking someone abroad
+    to marry. Breaking a FMPO can carry a prison sentence of up to 5 years.
+  - 'If you or someone you know is at risk of Forced marriage, you should contact
+    the Forced Marriage Unit on 020 7008 0151 or fmu@fco.gov.uk. You will get advice
+    and help to find a safe place to stay. In an emergency call the police on 999. '
+  - Victims of Forced marriage are at risk of being exploited and becoming victims
+    of Modern slavery
+  - Financial abuse can be a factor of Forced marriage. For example, taking wages
+    or not be given any money
+  - 'Consent: Consent means you have made a free choice whether to marry or not.'
+  - Forced marriage affects a broad range of communities including Iranian, Turkish,
+    Roma and African. There are no religions that support the practice of forced marriage.
   FGM_questions:
   - What is a possible consequence of FGM being carried out?
   - How many women alive today have undergone FGM?
@@ -252,3 +274,34 @@ MonoBehaviour:
   - Playing online games.
   - Befriending someone online using a fake profile for sexual purposes.
   - Using social networking apps.
+  FM_Questions:
+  - "What does \u2018consent\u2019 mean?"
+  - What pressure can be used to force someone to marry against their will?
+  - What religions support the practice of Forced marriage?
+  - 'It is Illegal to:'
+  - What can be applied for if someone is at risk of forced marriage
+  FM_qOneAnswers:
+  - Doing what you are told.
+  - Having freedom of choice.
+  - To marry.
+  - To not marry.
+  FM_qTwoAnswers:
+  - Physical.
+  - Emotional
+  - Financial
+  - All of the above.
+  FM_qThreeAnswers:
+  - Christianity
+  - Islam
+  - No religions
+  - Hinduism
+  FM_qFourAnswers:
+  - Force someone into marriage in the UK.
+  - Take someone overseas to force them to marry.
+  - Force someone to marry who does not have the capacity to consent.
+  - All of the above.
+  FM_qFiveAnswers:
+  - Nothing
+  - A Forced Marriage Protection Order (FMPO).
+  - A passport.
+  - Money

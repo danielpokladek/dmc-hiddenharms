@@ -35,6 +35,7 @@ public class Language_SO : ScriptableObject
     [SerializeField] [TextArea] private string[] DA_Facts   = new string[8];    // Facts about Domestic Abuse.
     [SerializeField] [TextArea] private string[] MS_Facts   = new string[8];    // Facts about Modern Slavery.
     [SerializeField] [TextArea] private string[] ONS_Facts  = new string[8];    // Facts about Online Safety.
+    [SerializeField] [TextArea] private string[] FM_Facts   = new string[8];
 
     [Header("FGM Q&A")]
     public string[] FGM_questions       = new string[5];
@@ -68,6 +69,14 @@ public class Language_SO : ScriptableObject
     public string[] ONS_qFourAnswers    = new string[4];
     public string[] ONS_qFiveAnswers    = new string[4];
 
+    [Header("Forced Marriage Q&A")]
+    public string[] FM_Questions = new string[5];
+    public string[] FM_qOneAnswers = new string[4];
+    public string[] FM_qTwoAnswers = new string[4];
+    public string[] FM_qThreeAnswers = new string[4];
+    public string[] FM_qFourAnswers = new string[4];
+    public string[] FM_qFiveAnswers = new string[4];
+
     #region Getters
     public string GetLangName { get { return languageName; } }
     public TMP_FontAsset GetFont { get { return languageFont; } }
@@ -76,5 +85,6 @@ public class Language_SO : ScriptableObject
     public string[] GetDAFacts { get { return DA_Facts; } }
     public string[] GetMSFacts { get { return MS_Facts; } }
     public string[] GetONSFacts { get { return ONS_Facts; } }
+    public string[] GetFMFacts { get { return FM_Facts; } }
     #endregion
 }

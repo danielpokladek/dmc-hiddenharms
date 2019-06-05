@@ -9,16 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/HouseFront.unity
     guid: 95fff912945cd55468437de64c30cdc1
   - enabled: 1
-    path: Assets/Scenes/RM_Bathroom.unity
+    path: Assets/Scenes/RM_FGM.unity
     guid: 2b3d4d707c1e124419d02db7fc117331
   - enabled: 1
-    path: Assets/Scenes/RM_Bedroom.unity
+    path: Assets/Scenes/RM_DA.unity
     guid: 4f67bcd20f8084c439912175c22bfdd2
   - enabled: 1
-    path: Assets/Scenes/RM_Kitchen.unity
+    path: Assets/Scenes/RM_MS.unity
     guid: 8bdcea35983944d44aa7b3e8542d59fb
   - enabled: 1
-    path: Assets/Scenes/RM_Frontroom.unity
+    path: Assets/Scenes/RM_ONS.unity
     guid: 58681d9bb9998e944b38f2eec9b480b2
   - enabled: 1
     path: Assets/Scenes/Certificate.unity
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Debrief.unity
     guid: 8ce67f7c84e49554baf279d6a6fa40c3
+  - enabled: 1
+    path: Assets/Scenes/RM_FM.unity
+    guid: 192ba23925182594182bc8d44cd9c402
   m_configObjects: {}

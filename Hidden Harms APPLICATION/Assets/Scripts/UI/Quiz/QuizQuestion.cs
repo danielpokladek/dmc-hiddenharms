@@ -6,8 +6,8 @@ using TMPro;
 
 public class QuizQuestion : MonoBehaviour
 {
-    public TMP_Text _questionHeader;
-    public TMP_Text[] _questionAnswers = new TMP_Text[4];
+    public RTLTMPro.RTLTextMeshPro _questionHeader;
+    public RTLTMPro.RTLTextMeshPro[] _questionAnswers = new RTLTMPro.RTLTextMeshPro[4];
 
     private string[] tempArray;
 
