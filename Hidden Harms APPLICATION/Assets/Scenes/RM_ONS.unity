@@ -492,86 +492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 8938229976490678862, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 2) Be abusive back
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130492317861510472, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 4) It is safe to let people you do not know look at your content
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814214593309974111, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: What does the word 'grooming' mean?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3221408307929435112, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 1) Making appropriate friends
-      objectReference: {fileID: 0}
-    - target: {fileID: 4977096014990699259, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: How can you stop people you do not know looking at you content on social
-        networking apps?
-      objectReference: {fileID: 0}
     - target: {fileID: 6996651625856449018, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
       value: 1) Ignore it
-      objectReference: {fileID: 0}
-    - target: {fileID: 3007367025253975004, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 3) Befriending someone online using a fake profile for sexual purposes
-      objectReference: {fileID: 0}
-    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 3) School Name
-      objectReference: {fileID: 0}
-    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 2) Phone Number
-      objectReference: {fileID: 0}
-    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8119872909296239638, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 1) Keep them away from the computer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6412893195355144914, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: If someone is being abusive to you online, what should you do?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6795195805953909055, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 4) Report it at THINKUKNOW.co.uk
       objectReference: {fileID: 0}
     - target: {fileID: 2837688073262704192, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -628,6 +552,11 @@ PrefabInstance:
       propertyPath: m_text
       value: 3) Tell them
       objectReference: {fileID: 0}
+    - target: {fileID: 7130492317861510472, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) It is safe to let people you do not know look at your content
+      objectReference: {fileID: 0}
     - target: {fileID: 2833991451834299066, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
@@ -652,6 +581,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 3) Arrange to meet them to talk about it
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) School Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608772996186037428, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Phone Number
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589519151504215729, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3856318712737480879, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -723,10 +682,30 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 1923920330}
+    - target: {fileID: 8938229976490678862, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 2) Be abusive back
+      objectReference: {fileID: 0}
+    - target: {fileID: 2814214593309974111, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: What does the word 'grooming' mean?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007367025253975004, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 3) Befriending someone online using a fake profile for sexual purposes
+      objectReference: {fileID: 0}
     - target: {fileID: 3011683153198129082, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
       value: 1) You cannot stop this
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221408307929435112, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Making appropriate friends
       objectReference: {fileID: 0}
     - target: {fileID: 5145935647802971167, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -753,15 +732,21 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 1923920350}
+    - target: {fileID: 4977096014990699259, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: How can you stop people you do not know looking at you content on social
+        networking apps?
+      objectReference: {fileID: 0}
     - target: {fileID: 7833072689648737883, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
       value: 2) Have the computer where you can see it
       objectReference: {fileID: 0}
-    - target: {fileID: 3140825503513688758, guid: 7e817feba02a2f944844f3fcd9440d49,
+    - target: {fileID: 6412893195355144914, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
-      value: 4) Both 'b' and 'c' above
+      value: If someone is being abusive to you online, what should you do?
       objectReference: {fileID: 0}
     - target: {fileID: 6262877728710666708, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -782,6 +767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119872909296239638, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 1) Keep them away from the computer
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659688152674, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -1227,6 +1217,66 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -407.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -153.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8.200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629383986807107456, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629383986807107456, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -859.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435665953562098396, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 335
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862217163868542129, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 259
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768168148721799226, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 178
+      objectReference: {fileID: 0}
+    - target: {fileID: 538462464588642100, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795195805953909055, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) Report it at THINKUKNOW.co.uk
+      objectReference: {fileID: 0}
+    - target: {fileID: 3140825503513688758, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) Both 'b' and 'c' above
+      objectReference: {fileID: 0}
     - target: {fileID: 8200459839101268788, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
@@ -1241,16 +1291,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: -869.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3629383986807107456, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3629383986807107456, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -859.6
       objectReference: {fileID: 0}
     - target: {fileID: 6360565036712167960, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -1316,46 +1356,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 99.00003
-      objectReference: {fileID: 0}
-    - target: {fileID: 4435665953562098396, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 335
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862217163868542129, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 259
-      objectReference: {fileID: 0}
-    - target: {fileID: 2768168148721799226, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 178
-      objectReference: {fileID: 0}
-    - target: {fileID: 538462464588642100, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -407.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -153.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -8.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293521659353461442, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1861,7 +1861,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1939,7 +1939,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1981,7 +1981,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2101,7 +2101,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2179,7 +2179,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2221,7 +2221,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2299,7 +2299,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2341,7 +2341,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2419,7 +2419,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2461,7 +2461,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2539,7 +2539,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2581,7 +2581,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2701,7 +2701,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2779,7 +2779,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2821,7 +2821,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2899,7 +2899,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2941,7 +2941,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3019,7 +3019,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3061,7 +3061,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3139,7 +3139,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3181,7 +3181,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3259,7 +3259,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3301,7 +3301,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3379,7 +3379,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3421,7 +3421,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3499,7 +3499,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3541,7 +3541,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3619,7 +3619,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3661,7 +3661,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3739,7 +3739,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3781,7 +3781,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3859,7 +3859,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3901,7 +3901,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4021,7 +4021,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4099,7 +4099,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4141,7 +4141,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4219,7 +4219,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4261,7 +4261,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4339,7 +4339,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4381,7 +4381,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4459,7 +4459,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4501,7 +4501,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4579,7 +4579,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4621,7 +4621,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4699,7 +4699,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4741,7 +4741,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 0
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

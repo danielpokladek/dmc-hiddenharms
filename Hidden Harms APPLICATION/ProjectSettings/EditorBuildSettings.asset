@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RM_FM.unity
     guid: 192ba23925182594182bc8d44cd9c402
+  - enabled: 1
+    path: Assets/Scenes/RM_Sponsors.unity
+    guid: 187ff075227f6dd41aba8d383519ce1e
   m_configObjects: {}

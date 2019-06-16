@@ -25,6 +25,7 @@
             <e p="OptionButton.cs" t="Include" />
           </e>
         </e>
+        <e p="GoToScene.cs" t="Include" />
         <e p="RTLTMPro" t="Include">
           <e p="Editor" t="Include">
             <e p="ContextMenu.cs" t="Include" />
@@ -78,6 +79,7 @@
             <e p="Bedroom.cs" t="Include" />
             <e p="FrontRoom.cs" t="Include" />
             <e p="Kitchen.cs" t="Include" />
+            <e p="Kitchen_2.cs" t="Include" />
             <e p="MenuRoom.cs" t="Include" />
           </e>
           <e p="TitleAnim.cs" t="Include" />
@@ -88,6 +90,7 @@
             <e p="Quiz" t="Include">
               <e p="DAQuiz.cs" t="Include" />
               <e p="FGMQuiz.cs" t="Include" />
+              <e p="FMQuiz.cs" t="Include" />
               <e p="MSQuiz.cs" t="Include" />
               <e p="ONSQuiz.cs" t="Include" />
               <e p="QuizController.cs" t="Include" />
