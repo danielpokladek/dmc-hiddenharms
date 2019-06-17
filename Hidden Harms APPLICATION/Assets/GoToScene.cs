@@ -7,6 +7,6 @@ public class GoToScene : MonoBehaviour
 {
     public void LoadLevel (int scene)
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(8);
     }
 }
