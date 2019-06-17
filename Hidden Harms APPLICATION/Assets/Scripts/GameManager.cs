@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     public bool CheckStatus()
     {
-        if (bathroom && bedroom && kitchen && frontroom)
+        if (bathroom && bedroom && kitchen && frontroom && kitchen_2)
             return true;
 
         return false;
