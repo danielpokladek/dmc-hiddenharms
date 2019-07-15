@@ -30,7 +30,7 @@ namespace Rooms
         public Button nextFactButton;
 
         [HideInInspector] public bool showFacts  = false;
-        private int factIterator    = 0;
+        [HideInInspector] public int factIterator    = 0;
         private float timer         = 0;
 
         public void BTN_NextFact()
@@ -67,7 +67,7 @@ namespace Rooms
             factsText.text = roomFacts[factIterator];
         }
 
-        private void Update()
+        public virtual void Update()
         {
             if (hasFacts) {
                 if (showFacts) {
@@ -84,6 +84,7 @@ namespace Rooms
             timer = 0;
             factsText.text = "";
             factIterator++;
+
 
             if (factIterator > roomFacts.Length - 1) {
                 AftQuiz();

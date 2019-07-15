@@ -1,11 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine.UI;
 
 using Rooms;
 
 public class FrontRoom : BaseRoom
 {
+    public Image PEGI;
+    public int PEGI_Fact;
+
     public override void Start()
     {
         base.Start();
@@ -17,6 +18,16 @@ public class FrontRoom : BaseRoom
         }
 
         UpdateFacts();
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if (factIterator == PEGI_Fact)
+            PEGI.enabled = true;
+        else
+            PEGI.enabled = false;
     }
 
     public override void AftQuiz()
