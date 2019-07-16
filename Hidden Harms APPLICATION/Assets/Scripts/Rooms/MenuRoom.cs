@@ -23,6 +23,7 @@ namespace Rooms
         public GameObject UI;
 
         [SerializeField] private GameObject bathroomLight, bedroomLight, kitchenLight, frontLight;
+        [SerializeField] private GameObject bathroomBubble, bedroomBubble, kitchenBubble, kitchenBubble_2, frontBubble;
 
         [HideInInspector]
         public override void Start()
@@ -72,13 +73,37 @@ namespace Rooms
         public void CheckLights()
         {
             if (_gameManager.bathroom)
+            {
                 bathroomLight.SetActive(false);
+                bathroomBubble.SetActive(false);
+            }
+
             if (_gameManager.bedroom)
+            {
                 bedroomLight.SetActive(false);
+                bedroomBubble.SetActive(false);
+            }
+
             if (_gameManager.kitchen && _gameManager.kitchen_2)
+            {
                 kitchenLight.SetActive(false);
+                kitchenBubble.SetActive(false);
+                kitchenBubble_2.SetActive(false);
+            }
+            else if (_gameManager.kitchen)
+            {
+                kitchenBubble.SetActive(false);
+            }
+            else if (_gameManager.kitchen_2)
+            {
+                kitchenBubble_2.SetActive(false);
+            }
+
             if (_gameManager.frontroom)
+            {
                 frontLight.SetActive(false);
+                frontBubble.SetActive(false);
+            }
         }
     }
 }
