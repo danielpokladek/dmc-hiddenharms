@@ -21,7 +21,9 @@ namespace Rooms
 
         public GameObject dollHouse;
         public GameObject UI;
-        
+
+        [SerializeField] private GameObject bathroomLight, bedroomLight, kitchenLight, frontLight;
+
         [HideInInspector]
         public override void Start()
         {
@@ -44,6 +46,10 @@ namespace Rooms
             {
                 ShowFinalQuest();
             }
+            else
+            {
+                CheckLights();
+            }
         }
 
         public void ShowInterrior()
@@ -61,6 +67,18 @@ namespace Rooms
             AddToForm(value);
             WebForm.WebManager._SendForm();
             SceneManager.LoadScene(5);
+        }
+
+        public void CheckLights()
+        {
+            if (_gameManager.bathroom)
+                bathroomLight.SetActive(false);
+            if (_gameManager.bedroom)
+                bedroomLight.SetActive(false);
+            if (_gameManager.kitchen && _gameManager.kitchen_2)
+                kitchenLight.SetActive(false);
+            if (_gameManager.frontroom)
+                frontLight.SetActive(false);
         }
     }
 }

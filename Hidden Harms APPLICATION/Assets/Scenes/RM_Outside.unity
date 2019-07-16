@@ -231,6 +231,10 @@ MonoBehaviour:
   _animCamera: {fileID: 1787601479}
   dollHouse: {fileID: 53570949}
   UI: {fileID: 338757811}
+  bathroomLight: {fileID: 51719963}
+  bedroomLight: {fileID: 496527336}
+  kitchenLight: {fileID: 119099538}
+  frontLight: {fileID: 1243813182}
 --- !u!114 &14387108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4276,10 +4280,6 @@ MonoBehaviour:
   kitchen: 0
   frontroom: 0
   kitchen_2: 0
-  bathroomLight: {fileID: 1910759930}
-  bedroomLight: {fileID: 401486469}
-  kitchenLight: {fileID: 1954042219}
-  frontLight: {fileID: 1550384415}
 --- !u!4 &369815751
 Transform:
   m_ObjectHideFlags: 0
@@ -4910,12 +4910,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388768497}
   m_CullTransparentMesh: 0
---- !u!1 &401486469 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1301437428926238067, guid: a578b3987d0f6c442acab1254f918f65,
-    type: 3}
-  m_PrefabInstance: {fileID: 8754693993679715477}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &419047811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5222,6 +5216,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2134768520}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
+      propertyPath: m_Name
+      value: house_front_top
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5265,10 +5263,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
-      propertyPath: m_Name
-      value: house_front_top
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11266,6 +11260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 318058890}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
+      propertyPath: m_Name
+      value: house_front_top
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11309,10 +11307,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
-      propertyPath: m_Name
-      value: house_front_top
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5c336a23246c0c34aa1ae5bba5b5770d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12910,6 +12904,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2134768520}
     m_Modifications:
+    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
+      propertyPath: m_Name
+      value: hous_front_left
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00011444092
@@ -12953,10 +12951,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
-      propertyPath: m_Name
-      value: hous_front_left
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14770,12 +14764,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542755670}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1550384415 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3512471072528390523, guid: 2196ba5ee984bb241aa522677cae6c9c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4239346813421339924}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1551988294
 GameObject:
   m_ObjectHideFlags: 0
@@ -17387,12 +17375,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8010639574003591474}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1910759930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7178746629167686177, guid: fb8673ffd7c160c4dabfd26ff17aebf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1010454883}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1911732422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5c336a23246c0c34aa1ae5bba5b5770d,
@@ -17639,6 +17621,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 318058890}
     m_Modifications:
+    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
+      propertyPath: m_Name
+      value: hous_front_left
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00011444092
@@ -17682,10 +17668,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
-      propertyPath: m_Name
-      value: hous_front_left
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c5ba6c6a36824634cbb82d4590df3e04, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17822,12 +17804,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947618863}
   m_CullTransparentMesh: 0
---- !u!1 &1954042219 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2712215496212720354, guid: ac49fe337b74cc3499baa69a8649e75f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2293216538342226836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1974808894
 GameObject:
   m_ObjectHideFlags: 0
