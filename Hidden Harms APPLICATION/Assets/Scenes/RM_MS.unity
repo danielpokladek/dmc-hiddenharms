@@ -1042,6 +1042,7 @@ MonoBehaviour:
   factLength: 0.1
   nextFactButton: {fileID: 1935224405}
   showFacts: 0
+  factIterator: 0
 --- !u!114 &439811879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2841,6 +2842,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: INT_Kitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159011, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3098,11 +3104,6 @@ PrefabInstance:
       propertyPath: _questionAnswers.Array.data[3]
       value: 
       objectReference: {fileID: 312266349}
-    - target: {fileID: 1300682465228389156, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8491509979227882503, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: _questionHeader
@@ -4142,16 +4143,6 @@ PrefabInstance:
       propertyPath: m_text
       value: 2) Unexplained injuries
       objectReference: {fileID: 0}
-    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1293521660616227103, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -4231,6 +4222,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BTN_KnowledgeAfter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300682465228389156, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047278539583486668, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 752791259, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}

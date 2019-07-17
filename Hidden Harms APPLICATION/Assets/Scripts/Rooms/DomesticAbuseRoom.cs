@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using Rooms;
 using TMPro;
 
-public class Bedroom : BaseRoom
+public class DomesticAbuseRoom : BaseRoom
 {
     public override void Start()
     {
@@ -26,6 +26,6 @@ public class Bedroom : BaseRoom
         base.AftQuiz();
 
         if (_gameManager != null)
-            _gameManager.SetBedroom = true;
+            _gameManager.SetKitchen = true;
     }
 }

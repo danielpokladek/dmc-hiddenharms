@@ -2,7 +2,7 @@
 
 using Rooms;
 
-public class FrontRoom : BaseRoom
+public class OnlineSafetyRoom : BaseRoom
 {
     public Image PEGI;
     public int PEGI_Fact;

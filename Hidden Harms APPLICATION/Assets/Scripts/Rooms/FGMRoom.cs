@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using Rooms;
 using UnityEngine.SceneManagement;
 
-public class Bathroom : BaseRoom
+public class FGMRoom : BaseRoom
 {
     public override void Start()
     {

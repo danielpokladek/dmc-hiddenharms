@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-
 using Rooms;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Kitchen_2 : BaseRoom
+public class ModernSlaveryRoom : BaseRoom
 {
     public override void Start()
     {
@@ -12,7 +12,7 @@ public class Kitchen_2 : BaseRoom
 
         if (GameManager.manager != null)
         {
-            roomFacts = GameManager.manager.languageSO.GetFMFacts;
+            roomFacts = GameManager.manager.languageSO.GetMSFacts;
             factsText.font = GameManager.manager.languageSO.GetFont;
         }
 
@@ -27,4 +27,17 @@ public class Kitchen_2 : BaseRoom
             GameManager.manager.SetKitchen_2 = true;
     }
 
+    public void BTN_KnowledgeBefore(string value)
+    {
+        AddToForm(value);
+        
+        showFacts = true;
+        factsText.enabled = true;
+    }
+
+    public void BTN_KnowledgeAfter(string value)
+    {
+        AddToForm(value);
+        SceneManager.LoadScene(0);
+    }
 }

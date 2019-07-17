@@ -130,6 +130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedroom_Model
       objectReference: {fileID: 0}
+    - target: {fileID: 8754693994582488734, guid: a578b3987d0f6c442acab1254f918f65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8754693994582488729, guid: a578b3987d0f6c442acab1254f918f65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -340,6 +345,75 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1160274845}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &937235463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2293216538555159011, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_Name
+      value: INT_Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293216538555159020, guid: ac49fe337b74cc3499baa69a8649e75f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac49fe337b74cc3499baa69a8649e75f, type: 3}
 --- !u!1001 &1160274845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -351,6 +425,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuizCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117202461053390031, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3629383986807107456, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -1571,11 +1650,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 4) All of the above
-      objectReference: {fileID: 0}
-    - target: {fileID: 5117202461053390031, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1293521659319401169, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -5061,6 +5135,7 @@ MonoBehaviour:
   factLength: 0.01
   nextFactButton: {fileID: 1160274847}
   showFacts: 0
+  factIterator: 0
 --- !u!114 &1571472576
 MonoBehaviour:
   m_ObjectHideFlags: 0
