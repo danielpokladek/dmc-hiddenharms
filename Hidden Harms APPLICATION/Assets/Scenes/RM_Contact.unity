@@ -285,8 +285,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.3551025, y: 120.422, z: -0.18823242, w: 0.4463501}
+  m_margin: {x: 1.3551025, y: 219.94617, z: -0.18823242, w: 0.4463501}
   m_textInfo:
     textComponent: {fileID: 574256743}
     characterCount: 542
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.3551025, y: 0.28442383, z: -0.18823242, w: 719.19336}
+  m_margin: {x: 1.3551025, y: 0.28442383, z: -0.18823242, w: 526.1765}
   m_textInfo:
     textComponent: {fileID: 1444601527}
     characterCount: 49
