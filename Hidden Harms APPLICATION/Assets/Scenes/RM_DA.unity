@@ -814,7 +814,7 @@ PrefabInstance:
     - target: {fileID: 3337757951816749527, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2754695968251366579, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -886,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2036105496, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 563422874, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
