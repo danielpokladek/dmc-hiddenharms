@@ -69,7 +69,10 @@ public class WebForm : MonoBehaviour
                 Debug.LogError("SEND ERR: Empty key/value in form at: " + entry.Key.ToString());
                 yield break;
             }
-            webForm.AddField(entry.Key, entry.Value);
+
+            string entryValue = entry.Value.ToUpper();
+
+            webForm.AddField(entry.Key, entryValue);
         }
 
         using (UnityWebRequest www = UnityWebRequest.Post(wwwAddress, webForm))

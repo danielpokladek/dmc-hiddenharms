@@ -20,6 +20,7 @@ public class Demographics : MonoBehaviour
 
     [Header("Scripts")]
     public MenuRoom menuRoom;
+    public AutoCompleteScrollRect autoCompleteThing;
 
     private GameManager _gameManager;
 
@@ -89,6 +90,8 @@ public class Demographics : MonoBehaviour
             Debug.LogError("Empty Nationality Field, insert a country.");
             return;
         }
+
+        
 
         string tempString = "entry.679332033," + natInput.text;
 
