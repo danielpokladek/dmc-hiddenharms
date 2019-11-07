@@ -689,10 +689,6 @@ MonoBehaviour:
   kitchen: 0
   frontroom: 0
   kitchen_2: 0
-  bathroomLight: {fileID: 0}
-  bedroomLight: {fileID: 0}
-  kitchenLight: {fileID: 0}
-  frontLight: {fileID: 0}
 --- !u!4 &1872003203
 Transform:
   m_ObjectHideFlags: 0
@@ -1778,6 +1774,11 @@ PrefabInstance:
       propertyPath: m_text
       value: 3) Arrange to meet them to talk about it
       objectReference: {fileID: 0}
+    - target: {fileID: 6795195805953909055, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) Report it at THINKUKNOW.co.uk
+      objectReference: {fileID: 0}
     - target: {fileID: 1479562813343745274, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
@@ -1787,6 +1788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 2) Have the computer where you can see it
+      objectReference: {fileID: 0}
+    - target: {fileID: 3140825503513688758, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_text
+      value: 4) Both 'b' and 'c' above
       objectReference: {fileID: 0}
     - target: {fileID: 4977096014990699259, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
@@ -1824,30 +1830,20 @@ PrefabInstance:
       propertyPath: m_text
       value: 2) Playing online games
       objectReference: {fileID: 0}
-    - target: {fileID: 6795195805953909055, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 4) Report it at THINKUKNOW.co.uk
-      objectReference: {fileID: 0}
-    - target: {fileID: 3140825503513688758, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_text
-      value: 4) Both 'b' and 'c' above
-      objectReference: {fileID: 0}
     - target: {fileID: 8200459839101268788, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_text
       value: 4) Using social networking apps.
       objectReference: {fileID: 0}
-    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -342
-      objectReference: {fileID: 0}
     - target: {fileID: 6360565036712167960, guid: 7e817feba02a2f944844f3fcd9440d49,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446498073011942300, guid: 7e817feba02a2f944844f3fcd9440d49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -342
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8796441589643441692, guid: 7e817feba02a2f944844f3fcd9440d49, type: 3}
@@ -3368,7 +3364,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_firstOverflowCharacterIndex: -1
